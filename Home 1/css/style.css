@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Start Of Navbar Section  */
+
+/* Start of First div  */
+
+.first-main-div {
+  height: 55px;
+  background: #3ac569;
+  padding-top: 10px;
+}
+
+.first-sub-div {
+  margin-left: 100px;
+  margin-right: 102px;
+}
+
+.start-text,
+.start-phone {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.start-text{
+    width: 317px
+}
+.start-icons img {
+  margin-right: 20px; /* Adds margin to each icon in start-icons */
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 17px;
+  color: white; /* Sets text color of input to white */
+}
+
+#search-icon {
+  color: #ffffff; /* Sets color of search icon to white */
+}
+
+/* End of First div  */
+
+/* End of Navbar Section  */
