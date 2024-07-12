@@ -36,7 +36,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: rgb(58, 197, 105);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -44,7 +44,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 58, 197, 105;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -80,11 +80,11 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff00;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
-  --bs-secondary-color: rgba(33, 37, 41, 0.75);
+  --bs-secondary-color: rgba(255, 255, 255, 0.75);
   --bs-secondary-color-rgb: 33, 37, 41;
   --bs-secondary-bg: #e9ecef;
   --bs-secondary-bg-rgb: 233, 236, 239;
@@ -105,7 +105,7 @@
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.357rem;
+  --bs-border-radius: 28px;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
   --bs-border-radius-xl: 1rem;
@@ -2159,9 +2159,11 @@ progress {
 .form-control::-moz-placeholder {
   color: var(--bs-secondary-color);
   opacity: 1;
+  background-color: #ffffff00;
 }
 .form-control::placeholder {
   color: var(--bs-secondary-color);
+  background-color: #ffffff00;
   opacity: 1;
 }
 .form-control:disabled {
@@ -3089,7 +3091,7 @@ textarea.form-control-lg {
 
 .btn-success {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1cf992;
+  --bs-btn-bg: #3AC569;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #157347;
@@ -4385,7 +4387,7 @@ textarea.form-control-lg {
   --bs-card-subtitle-color: ;
   --bs-card-border-width: var(--bs-border-width);
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: var(--bs-border-radius);
+  /* --bs-card-border-radius: var(--bs-border-radius); */
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
   --bs-card-cap-padding-y: 0.5rem;
@@ -8217,7 +8219,9 @@ textarea.form-control-lg {
 .pt-5 {
   padding-top: 3rem !important;
 }
-
+.pt-6{
+  padding-top: 9rem !important;
+}
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -8265,7 +8269,9 @@ textarea.form-control-lg {
 .pb-5 {
   padding-bottom: 3rem !important;
 }
-
+.pb-7{
+  padding-bottom: 9rem !important;
+}
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -8389,7 +8395,7 @@ textarea.form-control-lg {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 18px !important;
 }
 
 .fs-6 {

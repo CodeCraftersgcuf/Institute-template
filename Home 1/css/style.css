@@ -1,46 +1,163 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+* {
+  font-family: Inter;
+  
+}
 /* Start Of Navbar Section  */
 
 /* Start of First div  */
-
-.first-main-div {
-  height: 55px;
-  background: #3ac569;
-  padding-top: 10px;
+.input-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
 }
 
-.first-sub-div {
-  margin-left: 100px;
-  margin-right: 102px;
-}
-
-.start-text,
-.start-phone {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.start-text{
-    width: 317px
-}
-.start-icons img {
-  margin-right: 20px; /* Adds margin to each icon in start-icons */
-}
-
-.form-control {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 17px;
-  color: white; /* Sets text color of input to white */
-}
-
-#search-icon {
+.search-icon {
   color: #ffffff; /* Sets color of search icon to white */
+  margin-left: -50px;
+  margin-top: -8px;
 }
+
+.play
+  {
+    height:50px;
+    width: 50px;
+    display: flex;
+    border: 0;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color:#3AC569 ;
+  }
+  .play-size
+  {
+    height:30px;
+    width: 30px;
+
+  }
+  .visit-btn{
+width: 178px;
+height: 56px;
+
+
+  }
 
 /* End of First div  */
 
+
+
+/* Start of Third div  */
+
+.round-link{
+  /* Rectangle 242 */
+width: 164px;
+height: 55px;
+background: #FFFFFF;
+border-radius: 27.5px 0px 0px 27.5px;
+
+}
+.header-3 {
+  --bs-gutter-x:0px;
+}
+ul{
+  list-style: none;
+}
+/* End of Third div  */
+
 /* End of Navbar Section  */
+
+
+
+/* Start of Hero Section  */
+.circle{
+width: 30px;
+height: 30px;
+background: #3AC569;
+}
+
+.dots{
+  width: 15px;
+  height: 15px;
+}
+.hero{
+
+background-image: 
+  linear-gradient(to bottom, rgba(18, 18, 18, 0.5), rgba(7, 7, 7, 0.5)),
+  url("../assets/hero-1.png");
+height: 809px;
+background-repeat: no-repeat;
+background-position: center;
+ 
+}
+.hero-inner{
+  padding-top: 10rem;
+}
+.hero-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+/* End of Hero Section  */
+
+/* Start of Third Section  */
+
+.black-bar{
+  height: 3px;
+  margin-top: 4px;
+}
+
+/* End of Third Section  */
+
+
+/* Start of Forth Section  */
+
+
+
+.line{
+  /* Line 73 */
+
+width: 341px;
+height: 0px;
+border: 2px solid #333333;
+position: relative;
+}
+.square{
+  /* Rectangle 252 */
+
+position: absolute;
+width: 8px;
+height: 8px;
+background: #3AC569;
+right: -4px;
+top: -4px;
+}
+.read-more{
+  /* Rectangle 239 */
+width: 117px;
+height: 41px;
+background: #3AC569;
+border-radius: revert;
+}
+
+.sec-4-img img{
+  position: relative;
+}
+.sec-4-border{
+  /* Rectangle 237 */
+
+position: absolute;
+width: 484px;
+height: 428px;
+color: #ffffff;
+}
+
+/* End of Forth Section  */
