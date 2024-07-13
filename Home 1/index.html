@@ -13,15 +13,15 @@
     <!-- Start of First div -->
 
     <div class="header text-light bg-dark">
-      <div class="inner-header container text-center">
-        <div class="row">
-          <div class="col-lg-3 text-start pe-0 pt-4 pb-4">
+      <div class="inner-header container text-center pt-2">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-3 text-start">
             <span class="fs-5">Turning Big Ideas into Great Products</span>
           </div>
-          <div class="col-lg-3 pt-4 pb-4">
+          <div class="col-lg-3">
             <img src="/assets/phone.png" alt="phone Photo" /> +92-305-1234567
           </div>
-          <div class="col-lg-3 pt-4 pb-4">
+          <div class="col-lg-3">
             <img
               src="/assets/twitter.png"
               alt="twiiter"
@@ -43,12 +43,13 @@
               style="margin-right: 20px"
             />
           </div>
-          <div class="col-lg-3 pt-4 pb-4">
+          <div class="col-lg-3">
             <div class="input-div">
               <input
                 class="form-control border-radius rounded-5"
                 type="text"
                 placeholder="Search"
+                style="background: #80808045; background: #ffffff33"
               />
               <span>
                 <img
@@ -65,9 +66,9 @@
     <!-- End of First div  -->
 
     <!-- Start of Second div  -->
-    <div class="header-2 bg-light">
+    <div class="header-2">
       <div class="xyz container pt-4 pb-4">
-        <div class="row">
+        <div class="row d-flex align-items-center">
           <div class="col-lg-3">
             <img src="assets/Logo Here.png" alt="Logo" />
           </div>
@@ -111,19 +112,39 @@
         <div class="d-flex justify-content-end">
           <div class="col-9">
             <div class="links pt-3">
-              <ul class="d-flex justify-content-evenly text-white">
-                <li>Home</li>
-                <li>Courses</li>
-                <li>Blogs</li>
-                <li>About</li>
-                <li>Event</li>
-                <li>Contact</li>
+              <ul
+                class="d-flex justify-content-start gap-5 text-white"
+                style="
+                  font-family: Inter;
+                  font-size: 18px;
+                  font-weight: 600;
+                  line-height: 21.78px;
+                  text-align: left;
+                "
+              >
+                <li>HOME</li>
+                <li>COURSES</li>
+                <li>BLOGS</li>
+                <li>ABOUT</li>
+                <li>EVENTS</li>
+                <li>CONTACT</li>
               </ul>
             </div>
           </div>
           <div class="col-3 d-flex justify-content-end">
             <div class="round-link d-flex justify-content-center">
-              <p class="text-center p-3">GET A QUOTE</p>
+              <p
+                class="text-center p-3 text-bg-green"
+                style="
+                  font-family: Inter;
+                  font-size: 18px;
+                  font-weight: 600;
+                  line-height: 21.78px;
+                  text-align: left;
+                "
+              >
+                GET A QUOTE
+              </p>
             </div>
           </div>
         </div>
@@ -136,9 +157,9 @@
     <!-- Start of Hero Section  -->
 
     <div class="hero">
-      <div class="container border border-2 text-start">
-        <div class="row border border-2 hero-inner">
-          <div class="col-9 d-flex flex-column">
+      <div class="container text-start">
+        <div class="row hero-inner">
+          <div class="col-lg-7 d-flex flex-column">
             <div class="text-white hero-title">
               Welcome to IVY <br />
               Education way of school
@@ -152,11 +173,22 @@
             <div class="row">
               <div class="col-lg-12 d-flex mt-5">
                 <button class="btn btn-success visit-btn">
-                  <a class="text-decoration-none text-white" href="#"
+                  <a
+                    style="
+                      font-family: Inter;
+                      font-size: 18px;
+                      font-weight: 600;
+                      line-height: 21.78px;
+                      text-align: left;
+                    "
+                    class="text-decoration-none text-white"
+                    href="#"
                     >VISIT CAMPUS</a
                   >
                 </button>
-                <button class="d-flex btn ms-5 border border-success play-btn">
+                <button
+                  class="d-flex btn ms-5 border border-success play-btn p-1"
+                >
                   <div class="play">
                     <img src="./assets/play.png" class="play-size" />
                   </div>
@@ -170,11 +202,13 @@
             </div>
           </div>
           <div
-            class="col-3 d-flex align-items-center text-center justify-content-center"
+            class="col-lg-5 d-flex align-items-center text-center justify-content-end"
           >
-            <div class="d-flex flex-column p-5">
-              <img class="dots mb-2" src="/assets/dot.png" alt="" />
-              <img class="dots" src="/assets/dot.png" alt="" />
+            <div
+              class="d-flex flex-column gap-3 justify-content-center align-items-center pt-5"
+            >
+              <div class="dot"></div>
+              <div class="dot"></div>
             </div>
           </div>
         </div>
@@ -186,11 +220,12 @@
     <!-- Start of Third Section  -->
 
     <div class="third-sec">
-      <div class="container border border-2">
-        <div class="row justify-content-start ps-5">
-          <div class="col-lg-3 card-col mb-3">
-            <div class="card" style="width: 18rem">
-              <img class="" src="./assets/sec-2-1.png" class="" alt="..." />
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center gap-4">
+          <div class="col-lg-3 card-col p-0">
+            <div class="card">
+              <img class="card-image" src="./assets/sec-2-1.png" class="" alt="..." />
+              <div class="hover-content"></div>
               <div class="card-body ps-0">
                 <p class="card-text">
                   Content Writing <br />
@@ -199,25 +234,29 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 card-col">
-            <div class="card ms-4" style="width: 18rem">
+          <div class="col-lg-3 card-col p-0">
+            <div class="card">
               <img class="" src="./assets/sec-2-2.png" class="" alt="..." />
               <div class="card-body ps-0">
                 <p class="card-text">
                   IELTS & PTE<br />
                   Lorem ipsum dolor sit amet
                 </p>
+                <div class="hover-content"></div>
+
               </div>
             </div>
           </div>
-          <div class="col-lg-3 card-col">
-            <div class="card ms-5" style="width: 18rem">
+          <div class="col-lg-3 card-col p-0">
+            <div class="card">
               <img class="" src="./assets/sec-2-3.png" class="" alt="..." />
               <div class="card-body ps-0">
                 <p class="card-text text-start">
                   IELTS & PTE<br />
                   Lorem ipsum dolor sit amet
                 </p>
+                <div class="hover-content"></div>
+
               </div>
             </div>
           </div>
@@ -236,35 +275,34 @@
     <!-- Start of Forth Section  -->
 
     <div>
-      <div class="container mt-4 mb-4">
+      <div class="container mt-5 mb-5">
         <div class="row">
-          <div class="col-lg-7 border border-2">
-            <div class="d-flex flex-column">
-              <h1>Why choose us</h1>
+          <div class="col-lg-7">
+            <div class="d-flex flex-column" style="max-width: 700px">
+              <h1 class="sec-4-title">Why <b> choose us </b></h1>
               <div class="line"><div class="square"></div></div>
-              <h3>About IVY Institute</h3>
-              <p>
+              <h3 class="font-inter-p mt-2">About IVY Institute</h3>
+              <p class="font-inter-p-small">
                 Lorem ipsum dolor siamet,consectetur nulla, eu sagittis felis
                 turpis eget nisl. adipiscing elit. Quisque vitae ipsum pretium,
-                sagittis felis quis, placerat felis. Sed <br />et pulvinar diam,
-                at porttitor enim. Morbi risus est, interdum augue id,
-                vestibulum placerat eni Maecenas luctus velit magna, sed
-                fermentum lorem venenatis sit amet. Proi congue metus et
-                volutpat faucibus. Fusauctor, ex nec placerat aliquet, est
-                venenatis nulla, eu sagittis felis turpis eget nisl. metus et
-                volutpat faucibus. Fusauctor, ex nec placerat aliquet, est
-                venenatis nulla, eu sagittis felis turpis eget nisl., est
-                venenatis nulla, eu sagittis felis nulla, eu sagittis felis
-                turpis eget nisl.nulla, eu sagittis felis turpis eget nisl.
-                nulla, eu sagittis felis turpis eget nisl., est venenatis nulla,
-                eu sagittis felis turpis eget nisl. eu sagittis felis turpis
-                eget nisl., est venenatis nulla, eu sagittis felis turpis eget
-                nisl.
+                sagittis felis quis, placerat felis. Sed et pulvinar diam, at
+                porttitor enim. Morbi risus est, interdum augue <br> id, vestibulum
+                placerat eni Maecenas luctus velit magna, sed fermentum lorem
+                venenatis sit amet. Proi congue metus et volutpat faucibus.
+                Fusauctor, ex nec placerat aliquet, est venenatis nulla, eu
+                sagittis felis turpis eget nisl. <br>  metus et volutpat faucibus.
+                Fusauctor, ex nec placerat aliquet, est venenatis nulla, eu
+                sagittis felis turpis eget nisl., est venenatis nulla, eu
+                sagittis felis <br> nulla, eu sagittis felis turpis eget nisl. nulla,
+                eu sagittis felis turpis eget nisl. <br> nulla, eu sagittis felis
+                turpis eget nisl., est venenatis nulla, eu sagittis felis turpis
+                eget nisl. eu sagittis felis turpis eget nisl., est venenatis
+                nulla, eu sagittis felis turpis eget nisl.
               </p>
             </div>
             <button class="btn btn-success read-more">Read More</button>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 sec-4-img-div">
             <div class="sec-4-img">
               <img src="/assets/sec-3-1.png" alt="" />
               <span class="sec-4-border"></span>
@@ -280,7 +318,7 @@
     <div class="fivth-sec">
       <div class="container">
         <div class="text-center pt-5">
-          <h1 class="sec-5-title">Feature Courses</h1>
+          <h1 class="sec-5-title font-lora-title">Feature Courses</h1>
           <div class="mid-main-line d-flex justify-content-center">
             <div class="mid-line">
               <div class="mid-line-square"></div>
@@ -288,7 +326,7 @@
           </div>
         </div>
 
-        <div class="row d-flex justify-content-evenly mt-5">
+        <div class="row d-flex justify-content-evenly mt-4-5  ">
           <div class="col-4">
             <img src="assets/sec-4-1.png" alt="First Image" />
           </div>
@@ -314,7 +352,7 @@
     <!-- End of Fivth Section  -->
 
     <!-- Start of Sixth Section  -->
-    <div class="six-main">
+    <div class="six-main d-flex justify-content-center">
       <div class="container-fluid d-flex justify-content-start">
         <div class="six-first-section">
           <div class="container mt-3">
@@ -346,19 +384,20 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col-lg-6">
+            <div class="sev-sec">
             <div class="seven-test">
-              <h1 class="text-green">Testimonials</h1>
-              <div class="line"><div class="square"></div></div>
+              <h1 class="font-lora-green-title">Testimonials</h1>
+              <div class="line line-testi"><div class="square"></div></div>
             </div>
             <div class="symbols">
-              <div class="d-flex justify-content-between mt-4">
+              <div class="d-flex justify-content-between mt-4-5">
                 <span class="quotes">
                   <img src="/assets/quotes.png" alt="" />
                 </span>
                 <span class="arrows d-flex justify-content-evenly me-5">
                   <img class="arrow" src="/assets/left-arrow.png" alt="asd" />
                   <img
-                    class="arrow ms-4"
+                    class="arrow ms-3"
                     src="/assets/right-arrow.png"
                     alt="asd"
                   />
@@ -367,23 +406,25 @@
             </div>
 
             <div class="sev-detail-text mt-4">
-              <p>
+              <p class="font-inter-p-small-light">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 dignissim faucibus euismod. Morbi quis tortor eget felis
                 interdum interdum a et elit. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit. Aliquam dignissim faucibus euismod.
               </p>
             </div>
-            <div class="sev-last d-flex container align-items-end">
-              <div class="image me-4">
+            <div class="sev-last d-flex container align-items-end p-0 mt-4-5">
+              <div class="image">
                 <img src="/assets/sec-6.png" alt="Section Seveth Photo" />
               </div>
               <div
-                class="user-info d-flex align-items-end justify-content-between"
+                class="user-info d-flex align-items-end justify-content-between "
               >
-                <div class="user-name d-flex flex-column align-items-end">
-                  <h5 class="mb-0">Mitchel John</h5>
-                  <h5 class="mb-0">C.E.O London</h5>
+                <div class="d-flex flex-column align-items-end ms-2">
+                  <div class="user-name">
+                  <h5 class="mb-0  font-inter-small-green">Mitchel John</h5>
+                  <h5 class="mb-0 font-inter-p-small-light-dark">C.E.O London</h5>
+                </div>
                 </div>
                 <div class="user-rating">
                   <img src="/assets/rating.png" alt="rating" />
@@ -394,19 +435,22 @@
                 </div>
               </div>
             </div>
+            </div>
           </div>
           <div class="col-lg-6">
             <div class="seven-faqs">
-              <h1 class="text-green">FAQ'S</h1>
-              <div class="line"><div class="square"></div></div>
+              <h1 class="font-lora-green-title">FAQ'S</h1>
+              <div class="line line-faqs"><div class="square"></div></div>
             </div>
             <div class="container mt-4">
               <div class="plus-first d-flex gap-2">
+                <div class="plus-div d-flex justify-content-center align-items-center">
                 <img
                   class="plus-img"
                   src="/assets/plus.png"
                   alt="Plus Symbol"
                 />
+              </div>
                 <p class="plus-text p-1">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </p>
@@ -465,13 +509,13 @@
                 class="event-date d-flex flex-column align-items-center justify-content-center"
               >
                 <h1 class="text-white">02</h1>
-                <h2 class="text-white">DEC 2022</h2>
+                <h5 class="text-white text-center">DEC 2022</h5>
               </div>
               <div class="event-detail ms-5 mt-3 d-flex flex-column">
                 <div class="event-text">
                   <h3 class="text-white">
-                    Presentation: The Geographics of <br />a care based economy
-                    year 2020
+                    Presentation: The Geographics of a care based economy year
+                    2020
                   </h3>
                 </div>
                 <div class="mt-4 event-time-loc d-flex justify-content-between">
@@ -492,7 +536,7 @@
                 class="event-date d-flex flex-column align-items-center justify-content-center"
               >
                 <h1 class="text-white">02</h1>
-                <h2 class="text-white">DEC 2022</h2>
+                <h5 class="text-white text-center">DEC 2022</h5>
               </div>
               <div class="event-detail ms-5 mt-3 d-flex flex-column">
                 <div class="event-text">
@@ -519,7 +563,7 @@
                 class="event-date d-flex flex-column align-items-center justify-content-center"
               >
                 <h1 class="text-white">02</h1>
-                <h2 class="text-white">DEC 2022</h2>
+                <h5 class="text-white text-center">DEC 2022</h5>
               </div>
               <div class="event-detail ms-5 mt-3 d-flex flex-column">
                 <div class="event-text">
@@ -564,9 +608,7 @@
             </div>
             <div class="blog-detail d-flex flex-column ms-4">
               <div class="blog-text">
-                <h3 class="text-white">
-                  How Graphics Designing
-                  is Evolving?                </h3>
+                <h3 class="text-white">How Graphics Designing is Evolving?</h3>
               </div>
               <div class="blog-date d-flex">
                 <img
@@ -581,8 +623,8 @@
             <div class="blog-detail d-flex flex-column ms-4">
               <div class="blog-text">
                 <h3 class="text-white">
-                  The latest trend: Digital
-                  Media Marketing                </h3>
+                  The latest trend: Digital Media Marketing
+                </h3>
               </div>
               <div class="blog-date d-flex">
                 <img
@@ -599,5 +641,316 @@
     </div>
 
     <!-- End Of Eight Section  -->
+
+    <!-- Start of Ninth Section  -->
+
+    <div class="nine-sec">
+      <div class="container">
+        <h1 class="text-center">GALLERY</h1>
+        <div class="sec-9-line d-flex justify-content-center">
+          <div class="mid-black-line">
+            <div class="green-nine-square"></div>
+          </div>
+        </div>
+        <h3 class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </h3>
+        <div class="grid-image-portion">
+          <div class="image-grid">
+            <div class="grid-item grid-item-1">
+              <img src="./assets/sec-9-1.png" alt="Image 1" />
+            </div>
+            <div class="grid-item grid-item-2">
+              <img src="./assets/sec-9-2.png" alt="Image 2" />
+            </div>
+            <div class="grid-item grid-item-3">
+              <img src="./assets/sec-9-3.png" alt="Image 3" />
+            </div>
+            <div class="grid-item grid-item-4">
+              <img src="./assets/sec-9-4.png" alt="Image 4" />
+            </div>
+            <div class="grid-item grid-item-5">
+              <img src="./assets/sec-9-5.png" alt="Image 5" />
+            </div>
+            <div class="grid-item grid-item-6">
+              <img src="./assets/sec-9-6.png" alt="Image 6" />
+            </div>
+            <div class="grid-item grid-item-7">
+              <img src="./assets/sec-9-7.png" alt="Image 7" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Ninth Section  -->
+
+    <!-- Start of Tenth Section  -->
+    <div class="ten-sec">
+      <div class="container">
+        <h1 class="text-center">LATEST NEWS</h1>
+        <div class="sec-10-line d-flex justify-content-center">
+          <div class="mid-10-line">
+            <div class="green-ten-square"></div>
+          </div>
+        </div>
+        <h3 class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </h3>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="new-card">
+              <img src="/assets/sec-10-1.png" alt="Image 1" />
+              <div class="new-text ps-4 pt-3 d-flex flex-column">
+                <h1>The World Best University</h1>
+                <p class="mt-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vestibulum nibh felis, luctus nec semper nec, egestas sit amet
+                  felis. Vestibulum nibh felis, luctus nec semper nec.
+                </p>
+                <div class="news-icons d-flex justify-content-between">
+                  <div class="news-comment d-flex">
+                    <img src="./assets/comment.png" alt="Comment" />
+                    <span class="ms-1"> Comments</span>
+                  </div>
+                  <div class="news-profile d-flex">
+                    <img src="./assets/contact.png" alt="Contact" />
+                    <span class="ms-1">Mitchel John</span>
+                  </div>
+                  <div class="news-date d-flex">
+                    <img src="./assets/calendar.png" alt="calendar" />
+                    <span class="ms-1">12 Feb 2021</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column">
+            <div class="news-card-1">
+              <div class="d-flex">
+                <img src="./assets/sec-10-2.png" alt="Sec-10" />
+                <div class="ps-1 pt-3 d-flex flex-column">
+                  <h2>The World Best University</h2>
+                  <p class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum nibh felis, luctus nec semper nec, egestas sit
+                    amet felis. Vestibulum nibh felis, luctus nec semper nec.
+                  </p>
+                  <div class="news-icons d-flex justify-content-between">
+                    <div class="news-comment d-flex">
+                      <img src="./assets/comment.png" alt="Comment" />
+                      <span class="ms-1"> Comments</span>
+                    </div>
+                    <div class="news-profile d-flex">
+                      <img src="./assets/contact.png" alt="Contact" />
+                      <span class="ms-1">Mitchel John</span>
+                    </div>
+                    <div class="news-date d-flex">
+                      <img src="./assets/calendar.png" alt="calendar" />
+                      <span class="ms-1">12 Feb 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news-card-2">
+              <div class="d-flex">
+                <img src="./assets/sec-10-3.png" alt="Sec-10" />
+                <div class="ps-1 pt-3 d-flex flex-column">
+                  <h2>The World Best University</h2>
+                  <p class="mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum nibh felis, luctus nec semper nec, egestas sit
+                    amet felis. Vestibulum nibh felis, luctus nec semper nec.
+                  </p>
+                  <div class="news-icons d-flex justify-content-between">
+                    <div class="news-comment d-flex">
+                      <img src="./assets/comment.png" alt="Comment" />
+                      <span class="ms-1"> Comments</span>
+                    </div>
+                    <div class="news-profile d-flex">
+                      <img src="./assets/contact.png" alt="Contact" />
+                      <span class="ms-1">Mitchel John</span>
+                    </div>
+                    <div class="news-date d-flex">
+                      <img src="./assets/calendar.png" alt="calendar" />
+                      <span class="ms-1">12 Feb 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Tenth Section  -->
+
+    <!-- Start of map Section  -->
+    <div>
+      <div class="container p-5">
+        <img src="./assets/map.png" alt="Map" />
+      </div>
+    </div>
+    <!-- End of Map Section  -->
+
+    <!-- Start of Lenvo Section  -->
+    <div class="lenovo">
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col">
+            <img class="lenove-img" src="./assets/lenovo.png" alt="Lenovo" />
+          </div>
+          <div class="col">
+            <img class="lenove-img" src="./assets/lenovo.png" alt="Lenovo" />
+          </div>
+          <div class="col">
+            <img class="lenove-img" src="./assets/lenovo.png" alt="Lenovo" />
+          </div>
+          <div class="col">
+            <img class="lenove-img" src="./assets/lenovo.png" alt="Lenovo" />
+          </div>
+          <div class="col">
+            <img class="lenove-img" src="./assets/lenovo.png" alt="Lenovo" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Lenovo Section  -->
+    <br /><br />
+
+    <!-- Start of Footer  -->
+    <footer class="container-fluid bgf mt-5">
+      <div class="row pt-5 justify-content-between">
+        <div class="col-4" style="padding-left: 30px">
+          <img src="./assets/IVY logo.png" alt="" />
+          <p class="text-light mt-3" style="max-width: 440px">
+            Lorem ipsum dolor sit a consectetur adipiscing elit. In placerat
+            tellus non orci viverra, at cursus pellentesque. Nullam elementum
+            ante quis magna Nullam elementum ante quis magna volutpat
+            sollicitudin.
+          </p>
+        </div>
+        <div class="col-4 d-flex">
+          <div class="me-4 text-light">
+            <h4 class="">User Links</h4>
+            <ul class="p-0">
+              <li>
+                <a href="#"><img src="./assets/circle.png" alt="dot" /> Home</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="dot" /> Courses</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="dot" /> About</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="dot" /> Contact</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="dot" /> Privacy</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="dot" /> Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="straight-line"></div>
+          <div class="text-light">
+            <h4 class="ps-4">Popular Tags</h4>
+            <ul class="line">
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="" /> Short Courses</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="" /> Certifications</a
+                >
+              </li>
+              <li>
+                <a href="#"><img src="./assets/circle.png" alt="" /> Diploma</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="" /> Short Courses</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/circle.png" alt="" /> Certifications</a
+                >
+              </li>
+              <li>
+                <a href="#"><img src="./assets/circle.png" alt="" /> Diploma</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4">
+          <h4 class="text-white">Subcribe</h4>
+          <p class="sub-detail">Sign up today for tips and latest news.</p>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="input"
+              placeholder="Subscribe Here"
+              aria-label="Subscribe Here"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-success btn-outline-success btn-foot"
+              type="button"
+              id="button-addon2"
+            >
+              <img src="./assets/share.png" alt="share" />
+            </button>
+          </div>
+          <div class="icons">
+            <a href="#"><img src="./assets/facebook.png" alt="facebook" /></a>
+            <a href="#"
+              ><img src="./assets/twitter-blue.png" alt="twiiter"
+            /></a>
+            <a href="#"><img src="./assets/linkedin.png" alt="linkedin" /></a>
+            <a href="#"><img src="./assets/instagram.png" alt="instagram" /></a>
+          </div>
+          <div class="d-flex mt-4 text-ladu">
+            <span
+              ><img
+                src="./assets/phone.png"
+                class="pe-2"
+                alt="phone"
+              />041-1234567</span
+            >
+            <span class="ps-5"
+              ><img src="./assets/call.png" class="pe-2" alt="call" />
+              0315-1234567</span
+            >
+          </div>
+          <div class="mt-4">
+            <p class="text-ladu">
+              <img
+                src="./assets/email.png"
+                class="pe-2"
+                alt="mail"
+              />example@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer  -->
   </body>
 </html>
