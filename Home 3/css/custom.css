@@ -1,0 +1,93 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.hero-img
+{
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/hero-img.png');
+    height: 969px;
+    background-position: center;
+    width: 100%;
+
+}
+  .header-3 {
+    --bs-gutter-x:0px;
+  }
+  ul{
+    list-style: none;
+  }
+  .f-size
+  {
+    font-size:80px;
+  }
+  .play
+  {
+    height:60px;
+    width: 60px;
+    display: flex;
+    border: 0;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:#3AC569 ;
+  }
+  .play-size
+  {
+    height:30px;
+    width: 30px;
+
+  }
+
+
+
+  p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* .row{
+    width: 100% !important;
+} */
+ /* .content{
+    width: 400px;
+    height: 500px !important;
+ } */
+  .news{
+    /* border-radius: 50%; */
+    position: relative;
+    top:-65px;
+    left: 65px;
+    width: 81px;
+    height: 81px;
+  }
+  .ca{
+    background-image: url('../Assests/sec2-1.png');
+    width: 420px;
+    height: 540px;
+  }
+ .row-1 {
+    /* --bs-gutter-x: -49.5rem; */
+    --bs-gutter-y: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(4 * var(--bs-gutter-y));
+    margin-right: calc(-5.5 * var(--bs-gutter-x));
+    margin-left: calc(-7.5 * var(--bs-gutter-x));
+    justify-content: space-between;
+}
+.dt{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+ .content p{
+    margin-bottom: 8px;
+ }
+ .bg-lightgrey {
+  position: absolute;
+  bottom: 0px;
+  /* right: 1px; */
+  left: 9px;
+  background: #1D1D1DB2;
+}
+
