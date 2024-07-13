@@ -140,17 +140,31 @@ ul {
 }
 
 .hover-content {
-  display: none;
-}
-.card:hover .hover-content {
-  display: block;
-  background-image: linear-gradient(to bottom, #000000b2, #000000b2),
-    url("../assets/card-hover.png");
+  position: absolute;
+  display: none !important;
   width: 400px;
   height: 293px;
-  position: absolute;
+  background-color: #000000b2;
   top: 0;
   left: 0;
+}
+.card-hover-ico {
+  display: none;
+  width: 75px;
+  height: 75px;
+  background: #3ac569;
+}
+.more-ico {
+  display: none;
+  width: 18.23px;
+  height: 12px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.card:hover .hover-content,
+.card:hover .card-hover-ico,
+.card:hover .more-ico {
+  display: flex !important;
 }
 
 /* End of Third Section  */
@@ -295,10 +309,14 @@ ul {
 .line-testi {
   width: 262px;
 }
-.arrow {
+.left-arrow, .right-arrow{
   width: 22px;
   height: 22px;
   background: #333333;
+}
+.arrow {
+width: 7.41px;
+height: 12px;
 }
 .sev-sec {
   width: 502px;
@@ -318,37 +336,21 @@ ul {
   width: 16px;
   height: 16px;
 }
-.plus-text {
-  width: 634px;
-  height: 49px;
-  background: #ffffff;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 144%;
-  color: #333333;
-}
 
-.minus img {
+.minus-div{
   width: 51px;
   height: 49px;
   background: #3ac569;
 }
+.minus img {
+width: 16px;
+height: 4px;
+
+
+}
 .minus-img {
   width: 16px;
   height: 16px;
-}
-.minus-text {
-  width: 634px;
-  height: 49px;
-  background: #000000;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 144%;
-  color: #ffffff;
 }
 .plus-minus-text {
   width: 523px;
@@ -361,7 +363,6 @@ ul {
   color: rgba(51, 51, 51, 0.5);
   margin-left: 71px;
 }
-
 /* End of Seventh Section  */
 
 /* Start of Eight Section  */
@@ -369,8 +370,8 @@ ul {
 .sec-8 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.5),
-      rgba(7, 7, 7, 0.5)
+      rgba(0, 0, 0, 0.63),
+      rgba(0, 0, 0, 0.5)
     ),
     url("../assets/sec-8-bg.png");
   height: 784px;
@@ -423,7 +424,7 @@ ul {
 }
 
 .blog-detail {
-  margin-top: 76px;
+  margin-top: 67px;
 }
 .blog-text {
   width: 299px;
@@ -437,6 +438,8 @@ ul {
   width: 342px;
   height: 0px;
   border: 1px solid #ffffff;
+  margin-top: 34px;
+
 }
 /* End of Eight Section  */
 
@@ -505,8 +508,12 @@ ul {
   width: 8px;
   height: 8px;
   top: -3px;
-  left: 50%;
+  left: 49.6%;
   background: #3ac569;
+}
+.new-card{
+  box-shadow: 4px 4px 10px 0px #00000040;
+  width: 570px;
 }
 
 .news-icons,
@@ -516,8 +523,15 @@ ul {
 .news-comment img,
 .news-profile img,
 .news-date img {
-  width: 19px;
-  height: 19px;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+
+}
+.news-card-1, .news-card-2{
+  box-shadow: 4px 4px 10px 0px #00000040;
+  width: 670px;
+  height: 233px;
 }
 /* End of Tenth Section  */
 
@@ -561,7 +575,6 @@ footer ul li a,
   font-size: 18px;
   border-radius: 0;
   background-color: white;
-  padding: 12px 0px;
   padding-left: 18px;
 }
 .input::placeholder {
@@ -576,6 +589,13 @@ footer ul li a,
   color: #fdf9f9b2;
 }
 .btn-foot {
-  border-radius: none;
+  border-radius: revert!important;
+  border: none;
+}
+.foot-btn-div{
+width: 65px;
+height: 47px;
+background: #3AC569;
+
 }
 /* End of Footer Section  */

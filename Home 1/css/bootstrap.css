@@ -8016,11 +8016,16 @@ textarea.form-control-lg {
 .mt-2 {
   margin-top: 0.5rem !important;
 }
-
+.mt-2-3{
+  margin-top: 1.2rem !important;
+}
 .mt-3 {
   margin-top: 1rem !important;
 }
+.mt-3-4{
+  margin-top: 1.3rem !important;
 
+}
 .mt-4 {
   margin-top: 1.5rem !important;
 }
@@ -8030,6 +8035,10 @@ textarea.form-control-lg {
 }
 .mt-4-5{
   margin-top: 2.4rem !important;
+}
+.mt-9{
+  margin-top: 4.8rem !important;
+
 }
 .mt-auto {
   margin-top: auto !important;
@@ -8352,6 +8361,33 @@ color: #333333;
 
 
 }
+.font-lora-gallery{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-gallery-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-news{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
 .font-lora-title{
 font-family: 'Lora';
 font-style: normal;
@@ -8387,6 +8423,120 @@ font-size: 13px;
 line-height: 16px;
 text-transform: uppercase;
 color: #333333;
+}
+.font-inter-card{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.font-inter-card-read{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.font-inter-choose-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.font-inter-faqs{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 144%;
+color: #333333;
+}
+.font-inter-minus{
+  width: 634px;
+  height: 49px;
+  background: #333333;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 144%;
+  color: #ffffff;
+}
+.font-inter-event{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.font-inter-date-first{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-date-second{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-event-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.font-inter-time{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #CACACA;
+
+}
+.font-inter-new-card{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-news-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-foot{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .row-gap-0 {
   row-gap: 0 !important;
