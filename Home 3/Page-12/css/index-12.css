@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+/* Additional styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-img {
+  height: 546px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url("../assets-12/hero-bg.png");
+  background-position: center;
+  background-size: cover; /* Ensure the background covers the entire section */
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white; /* Set text color to white for better visibility */
+}
+
+.header-3 {
+  --bs-gutter-x: 0px;
+}
+ul {
+  list-style: none;
+  gap: 97px;
+  padding-left: 96px;
+}
+
+.btn-apply {
+  width: 178px;
+  height: 56px;
+  background: #3ac569;
+  border-radius: 28px;
+}
+
+/* Start of Second Section  */
+
+.sec-2-main-img {
+  width: 685px !important;
+}
+.sec-2-det {
+  width: 170px;
+}
+.sec-2-det-ico {
+  width: 12px;
+  height: 12px;
+}
+.sec-2-ico-div {
+  height: 1.2rem !important;
+}
+.sec-2-main-pic {
+  width: 689px;
+  height: 260px;
+  margin-left: 108px;
+}
+
+/* End of Second Section  */
+
+/* <!-- Start of Owner Card Section  --> */
+
+.owner-card-sec {
+  box-sizing: border-box;
+  width: 835px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.card-owner-profile {
+  width: 196px;
+  height: 200px;
+}
+.card-owner-detail {
+  width: 406px;
+}
+.sec-2-hor-line {
+  width: 835px;
+  height: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 12px;
+}
+
+/* <!-- End of Owner Card Section  --> */
+
+/* Start of Footer Section  */
+
+footer ul li {
+  padding: 5px 0px;
+}
+footer ul li a,
+.sub-detail {
+  color: #fdf9f9b2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+}
+.straight-line {
+  height: 250px;
+  border: 1px solid #ffffff;
+}
+.line-foot {
+  padding-left: 25px;
+}
+.input {
+  line-height: 2rem;
+  font-size: 18px;
+  border-radius: 0;
+  background-color: white;
+  padding-left: 18px;
+}
+.input::placeholder {
+  color: #00000080;
+}
+
+.bgf {
+  background-image: url("../assets-12/footer.png");
+  height: 425px;
+}
+.text-ladu {
+  color: #fdf9f9b2;
+}
+.btn-foot {
+  border-radius: revert !important;
+  border: none;
+}
+.foot-btn-div {
+  width: 65px;
+  height: 47px;
+  background: #3ac569;
+}
+
+.foot-hor-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+/* End of Footer Section  */
