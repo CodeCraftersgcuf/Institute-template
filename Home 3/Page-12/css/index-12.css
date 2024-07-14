@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 /* Additional styles here */
 * {
   margin: 0;
@@ -86,6 +86,112 @@ ul {
 }
 
 /* <!-- End of Owner Card Section  --> */
+
+
+/* Start of Sidebar Section  */
+.founder-sec{
+  position: relative;
+}
+.quote{
+  position: absolute;
+  top: -29px;
+  left: 27px;
+}
+.search-line{
+width: 266px;
+height: 0px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.founder-info-div{
+width: 266px;
+height: 276px;
+background: #FDF9F9;
+}
+
+/* Start of Course Section  */
+.course-st-line{
+width: 26px;
+height: 0px;
+border: 2px solid #3AC569;
+transform: rotate(90deg);
+margin-left: -13px;
+margin-top: 10px;
+}
+.course-det-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 144%;
+color: rgba(0, 0, 0, 0.7);
+margin-bottom: 7px;
+margin-top: 10px;
+}
+/* End of Course Section  */
+
+/* Start of Calendar Section  */
+
+.calendar-hor-line{
+width: 267px;
+height: 0px;
+border: 1px solid #3AC569;
+margin-top: 15px;
+}
+.date-cal{
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.date-cal img{
+width: 5px;
+height: 10px;
+margin-top: 10px;
+}
+
+.calendar{
+width: 266px;
+height: 270px;
+background: #FDF9F9;
+}
+
+.calendar img{
+  padding: 10px 22px;
+}
+
+/* End of Calendar Section  */
+
+/* Start of Post Section  */
+.indi-post{
+  /* Rectangle 169 */
+
+box-sizing: border-box;
+width: 109px;
+height: 36px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.post-denti{
+  width: 85px!important;
+}
+.post-doc{
+  width: 92px!important;
+}
+.post-equip{
+  width: 104px!important;
+}
+.post-health{
+  width: 79px!important;
+}
+.post-hos{
+  width: 92px!important;
+}
+.post-sur{
+  width: 79px!important;
+}
+/* End of Post Section  */
+
+
+/* End of Sidebar Section  */
 
 /* Start of Footer Section  */
 

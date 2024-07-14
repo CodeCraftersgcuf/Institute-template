@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
@@ -8018,7 +8018,9 @@ textarea.form-control-lg {
 .mt-2 {
   margin-top: 0.5rem !important;
 }
-
+.mt-2-3{
+  margin-top: 0.75rem !important;
+}
 .mt-3 {
   margin-top: 1rem !important;
 }
@@ -8034,6 +8036,9 @@ textarea.form-control-lg {
 }
 .mt-5-6{
   margin-top: 3.3rem !important;
+}
+.mt-2-9{
+  margin-top: 2.9rem !important;
 }
 .mt-6 {
   margin-top: 4.2rem !important;
@@ -8060,6 +8065,9 @@ textarea.form-control-lg {
 
 .me-4 {
   margin-right: 1.5rem !important;
+}
+.me-4-5{
+  margin-right: 3.5rem !important;
 }
 
 .me-5 {
@@ -8317,7 +8325,9 @@ textarea.form-control-lg {
 .gap-2 {
   gap: 0.5rem !important;
 }
-
+.gap-2-3{
+  gap: 0.8rem!important;
+}
 .gap-3 {
   gap: 1rem !important;
 }
@@ -12040,6 +12050,17 @@ textarea.form-control-lg {
   }
 }
 
+.font-laila-p{
+font-family: 'Laila';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 144%;
+color: #000000;
+padding: 21px 29px;
+}
+
+
 .font-inter-nav{
 font-family: 'Inter';
 font-style: normal;
@@ -12152,6 +12173,57 @@ font-size: 13px;
 line-height: 16px;
 color: rgba(0, 0, 0, 0.5);
 margin-bottom: 9px;
+}
+
+.font-inter-search{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 5px;
+}
+
+.font-inter-course-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 144%;
+text-transform: uppercase;
+color: #000000;
+}
+
+.font-inter-founder-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 144%;
+color: #000000;
+margin-left: 29px;
+}
+
+.font-inter-cal{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 144%;
+text-transform: uppercase;
+color: #000000;
+margin-top: 6px;
+}
+.font-inter-post-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 144%;
+color: rgba(0, 0, 0, 0.5);
+margin: 0px;
+padding: 0px;
 }
 .font-inter-foot{
 font-family: 'Inter';
