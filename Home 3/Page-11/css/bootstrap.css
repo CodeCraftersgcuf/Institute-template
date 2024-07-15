@@ -8253,6 +8253,9 @@ textarea.form-control-lg {
 .pe-2 {
   padding-right: 0.5rem !important;
 }
+.pe-2-3{
+  padding-right: 0.8rem !important;
+}
 
 .pe-3 {
   padding-right: 1rem !important;
@@ -8305,7 +8308,9 @@ textarea.form-control-lg {
 .ps-3 {
   padding-left: 1rem !important;
 }
-
+.ps-3-4{
+  padding-left: 1.2rem !important;
+}
 .ps-4 {
   padding-left: 1.5rem !important;
 }
@@ -12129,7 +12134,16 @@ color: rgba(0, 0, 0, 0.8);
 width: 235px;
 margin-top: 1rem !important;
 }
-
+.font-inter-sidebar-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 9px;
+}
 .font-inter-card-h4{
 font-family: 'Inter';
 font-style: normal;
@@ -12138,7 +12152,46 @@ font-size: 12px;
 line-height: 15px;
 color: rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
 /* End of Font of Section 2  */
+
+
+/* Start of Sidebar Section  */
+.font-inter-side-event-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 0px;
+}
+.font-inter-pop-event{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 144%;
+text-transform: uppercase;
+color: #000000;
+margin-top: 7px;
+margin-left: -5px;
+}
+
+.font-inter-pop-ico-name{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: rgba(0, 0, 0, 0.5);
+}
+/* End of Sidebar Section  */
+
 
 .font-inter-foot{
 font-family: 'Inter';

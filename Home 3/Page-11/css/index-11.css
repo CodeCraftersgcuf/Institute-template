@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
 /* Additional styles here */
 * {
   margin: 0;
@@ -40,29 +40,81 @@ ul {
 }
 
 /* Start of Second Section  */
-.sec-2-green-ver{
-width: 28px;
-height: 0px;
-border: 2px solid #3AC569;
-transform: rotate(90deg);
-margin-top: 18px;
-margin-right: -8px;
+.sec-2-green-ver {
+  width: 28px;
+  height: 0px;
+  border: 2px solid #3ac569;
+  transform: rotate(90deg);
+  margin-top: 18px;
+  margin-right: -8px;
 }
 
-.main-card{
-  width: 291px;
-
-}
-.card-img{
-height: 172px;
-border-radius: 20px;
-}
-.card-ico-text{
+.main-card {
   width: 291px;
 }
-
+.card-img {
+  height: 172px;
+  border-radius: 20px;
+}
+.card-ico-text {
+  width: 291px;
+}
 
 /* End of Second Section  */
+
+/* Start of Sidebar Section  */
+
+.sec-2-sidebar-ver {
+  width: 22px;
+  height: 0px;
+  border: 2px solid #3ac569;
+  transform: rotate(90deg);
+  margin-top: 18px;
+}
+
+.sidebar-input {
+  width: 233px;
+  height: 41px;
+  background: #fdf9f9;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25), -2px -2px 2px #ffffff;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+
+
+.main-event{
+width: 266px;
+height: 310px;
+background: #FFFFFF;
+box-shadow: -2px -2px 10px #FFFFFF, 2px 2px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* Start of Popular Event Section  */
+.course-st-line{
+  width: 26px;
+  height: 0px;
+  border: 2px solid #3AC569;
+  transform: rotate(90deg);
+  margin-left: -13px;
+  margin-top: 10px;
+  }
+  .course-det-p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 144%;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 7px;
+  margin-top: 10px;
+  }
+  /* End of Popular Event Section  */
+
+
+  
+/* End of Sidebar Section  */
 
 /* Start of Footer Section  */
 
