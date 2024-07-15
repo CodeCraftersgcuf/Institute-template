@@ -1,0 +1,17 @@
+.bkl{
+    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(/assests-course/hero.png);
+    height: 546px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.co{
+    color: #CACACA;
+}
+.bu{
+    background-color: #3AC569;
+    border-radius: 28px;
+}
+.butt{
+    color: #3AC569;
+}
