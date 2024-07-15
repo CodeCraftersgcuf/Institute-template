@@ -1,0 +1,201 @@
+/*nav*/
+.container-fluid{
+    background-color: 
+    #3AC569;
+    height: 46px;
+}
+.container-fluid p{
+    padding-top: 4px;
+}
+.logo{
+    height: 114px;
+    
+}
+.logo h1{
+    margin-top: 8px;
+}
+.nav{
+    text-decoration: none;
+    font-size: 600;
+    font-size: 18px;
+}
+.position{
+    position: relative;
+    bottom: 27px;
+    font-weight: 700;
+}
+.call{
+    position: relative;
+    bottom: 8px;   
+}
+.text-succes{
+    color: #3AC569;
+}
+/* hero section */
+.zero{
+    background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(7, 7, 7, 0.7)), url(../img/hero-1.png);
+    background-size: cover;
+    height: 923px;
+    width: 100%;
+    position: relative;
+    bottom: 88px;
+   z-index: -1;
+}
+.btn{
+    background-color: #3AC569;
+    border-radius: 28px;
+    margin-left: 138px;
+}
+.video-btn{
+    width: 178px;
+    height: 56px;
+    background-color: transparent;
+    border: 1px solid #3AC569;
+    border-radius: 28px;
+    position: relative;
+    top: 3px;
+    padding-top: 17px;
+}
+.vbg{
+
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #3AC569;
+    position: relative;
+    right: 22px;
+    bottom: 15px;   
+}
+.me-3{
+   position: relative;
+   top: 10px;
+   left: 8px;
+}
+.b{
+    position: relative;
+    bottom: 90px;
+}
+.dot{
+   margin-left: 50%;
+}
+.why{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.background-pic{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/sec-4-bg.png);
+    height: 940px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.form{
+    height: 485px;
+    width: 1236px;
+    background-color: #000647;
+}
+
+.sec-8{
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/Rectangle\ 26.png");
+    height: 784px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 60px;
+    
+  }
+  .sec-8-contain{
+    position: relative;
+  }
+  
+  .sec-8-heading h1, .sec-8-blog h1{
+    margin-top: 73px!important;
+    /* margin-left: 50px; */
+  }
+  
+  
+  .event-date{
+  box-sizing: border-box;
+  width: 143px;
+  height: 143px;
+  border: 2px solid #3AC569;
+  
+  }
+  .event-text{
+  width: 406px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  }
+  .event-time-loc{
+    width: 401px;
+  }
+  .event-line{
+  width: 467px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  
+  }
+  
+  .stright-line{
+  width: 541px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 460px;
+  right: 300px;
+  }
+  
+  .blog-detail {
+    margin-top: 76px;
+  }
+  .blog-text{
+    width: 299px ;
+  }
+  .blog-date img{
+    width: 16px;
+    height: 16px;
+    
+  }
+  
+  .blog-line{
+  width: 342px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  
+  }
+  footer ul li{
+    padding: 5px 0px;
+  }
+  footer ul li a{
+    color:#FDF9F9B2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  .straight-line{
+    height: 250px;
+    border: 1px solid #FFFFFF;
+    }
+  
+  .input{
+    line-height: 2rem;
+    font-size: 18px;
+    border-radius: 0;
+  }
+  .bgf{
+    background-image: url(/Assests/footer.png);
+    height: 425px;
+    background-color: #000647;
+  }
+  .text-ladu{
+    color: #FDF9F9B2;
+  }
