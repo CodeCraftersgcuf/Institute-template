@@ -1,0 +1,137 @@
+.pad{
+    padding-left:150px ;
+}
+.abot::after{
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    background-color: #3AC569;
+    top: 635px;
+    left: 150px;
+}
+
+.bgg{
+    background-color: #F5F4F0;
+}
+.cgf{
+    width: 285px;
+    height: 411px;
+    background-color: #fff;
+}
+.bol{
+    position: relative;
+    top: -15px;
+}
+.bkl{
+    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(/assests-contact/hero-bg.png);
+    height: 546px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.co{
+    color: #CACACA;
+}
+.bu{
+    background-color: #3AC569;
+    border-radius: 28px;
+}
+.butt{
+    color: #3AC569;
+}
+.scroll{
+    height: 530px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 15px grey;
+}
+::-webkit-scrollbar-thumb{
+    background: #3AC569;
+}
+
+/* .scroll-line{
+    width: 20px;
+    height: 100px;
+    background-color: #CACACA;
+    position: absolute;
+    top: 0;
+
+} */
+.boo{
+    border-bottom: 2px solid #3AC569;
+}
+.booo{
+    border: 2px solid black;
+}
+.form-control{
+    border-radius: 0px !important;
+    padding-left: 26px !important;
+}
+.bb{
+    display: flex !important;
+    justify-content: end;
+}
+.map{
+    margin-top: 90px;
+}
+/* Start of Footer Section  */
+
+footer ul li {
+    padding: 5px 0px;
+  }
+  footer ul li a,
+  .sub-detail {
+    color: #fdf9f9b2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  .straight-line {
+    height: 250px;
+    border: 1px solid #ffffff;
+  }
+  .line-foot {
+    padding-left: 25px;
+  }
+  .input {
+    line-height: 2rem;
+    font-size: 18px;
+    border-radius: 0;
+    background-color: white;
+    padding-left: 18px;
+  }
+  .input::placeholder {
+    color: #00000080;
+  }
+  
+  .bgf {
+    background-image: url("../assets-12/footer.png");
+    height: 425px;
+    background-color: 
+    #000647;
+  }
+  .text-ladu {
+    color: #fdf9f9b2;
+  }
+  .btn-foot {
+    border-radius: revert !important;
+    border: none;
+  }
+  .foot-btn-div {
+    width: 65px;
+    height: 47px;
+    background: #3ac569;
+  }
+  
+  .foot-hor-line {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #ffffff;
+  }
+  /* End of Footer Section  */
