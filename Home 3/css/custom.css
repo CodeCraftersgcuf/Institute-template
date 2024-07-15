@@ -1,93 +1,329 @@
+p{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* .row{
+  width: 100% !important;
+} */
+/* .content{
+  width: 400px;
+  height: 500px !important;
+} */
+.news {
+  /* border-radius: 50%; */
+  position: relative;
+  top: -50px;
+  left: 110px;
+  width: 81px;
+  height: 81px;
+}
+.cb {
+  position: absolute;
+  top: 80%;
+  left: 30px;
+}
+.ca{
+  background-image: url(/Assests/sec2-1.png);
+  width: 421px;
+  height: 540px;
+}
+.row-1 {
+  /* --bs-gutter-x: -49.5rem; */
+  --bs-gutter-y: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(4 * var(--bs-gutter-y));
+  margin-right: calc(-5.5 * var(--bs-gutter-x));
+  margin-left: calc(-7.5 * var(--bs-gutter-x));
+  justify-content: space-between;
+}
+.dt{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.content p{
+  margin-bottom: 8px;
+}
+.bg-lightgrey{
+  position: absolute;
+  bottom: 0;
+  left: 9px;
+  /* right: 5px; */
+  background: #1D1D1DB2;
+}
+.con{
+  --bs-gutter-x:1rem;
+
+}
+.ml{
+  margin-left: 1000px;
+}
+
+
+
+/* hello */
 *
 {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .hero-img
 {
-    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/hero-img.png');
-    height: 969px;
-    background-position: center;
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/hero-img.png');
+  height: 969px;
+  background-position: center;
+  width: 100%;
+
+}
+.header-3 {
+  --bs-gutter-x:0px;
+}
+ul{
+  list-style: none;
+}
+.f-size
+{
+  font-size:80px;
+}
+.f-size1
+{
+  font-size:18px;
+}
+.play
+{
+  height:60px;
+  width: 60px;
+  display: flex;
+  border: 0;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color:#3AC569 ;
+}
+.play-size
+{
+  height:30px;
+  width:30px;
+
+}
+.bg-purple
+{
+  background-color:  #000647;
+  height: 710px;
+}
+.sec4-bg
+{
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/Rectangle 10.png');
+    height: 1226px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-top:80px;
     width: 100%;
 
 }
-  .header-3 {
-    --bs-gutter-x:0px;
-  }
-  ul{
-    list-style: none;
-  }
-  .f-size
-  {
-    font-size:80px;
-  }
-  .play
-  {
-    height:60px;
-    width: 60px;
-    display: flex;
-    border: 0;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    background-color:#3AC569 ;
-  }
-  .play-size
-  {
-    height:30px;
-    width: 30px;
+.subscribe-section {
+  display: flex;
 
-  }
-
-
-
-  p{
-    font-size: 20px;
-    font-weight: 400;
 }
-/* .row{
-    width: 100% !important;
-} */
- /* .content{
-    width: 400px;
-    height: 500px !important;
- } */
-  .news{
-    /* border-radius: 50%; */
-    position: relative;
-    top:-65px;
-    left: 65px;
-    width: 81px;
-    height: 81px;
-  }
-  .ca{
-    background-image: url('../Assests/sec2-1.png');
-    width: 420px;
-    height: 540px;
-  }
- .row-1 {
-    /* --bs-gutter-x: -49.5rem; */
-    --bs-gutter-y: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(4 * var(--bs-gutter-y));
-    margin-right: calc(-5.5 * var(--bs-gutter-x));
-    margin-left: calc(-7.5 * var(--bs-gutter-x));
-    justify-content: space-between;
+.subscribe-form {
+  padding:0px 15px;
+  width: 100%;
 }
-.dt{
-    position: absolute;
-    top: 5px;
-    left: 5px;
+.form-group {
+  position: relative;
+  margin-bottom: 30px;
 }
- .content p{
-    margin-bottom: 8px;
- }
- .bg-lightgrey {
+.form-group img {
   position: absolute;
-  bottom: 0px;
-  /* right: 1px; */
-  left: 9px;
-  background: #1D1D1DB2;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 20px;
+  opacity: 0.6;
+}
+.form-control {
+  height: 40px;
+  padding-left: 60px; /* Make space for the icon */
+}
+.subscribe-form .btn-get {
+  background-color: #3AC569;
+  border-color: #3AC569;
+  height: 40px;
+  font-size:15px;
+  color: white;
+  width: 100%;
+  font-weight:bolder;
+}
+.subscribe-form .btn-get:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+footer ul li{
+  padding: 5px 0px;
+}
+footer ul li a{
+  color:#FDF9F9B2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+}
+.straight-line{
+  height: 250px;
+  border: 1px solid #FFFFFF;
+  }
+
+.input{
+  line-height: 2rem;
+  font-size: 18px;
+  border-radius: 0;
+}
+.bgf{
+  background-image: url(/Assests/footer.png);
+  height: 425px;
+}
+.text-ladu{
+  color: #FDF9F9B2;
+}
+.img-container
+{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.large-img{
+  width:99%;
+  height: 410px;
+}
+.medium-img{
+  width:100%;
+  height: 410px;
+}
+.small-img
+{
+  width:32%;
+  height: 200px;
+}
+.small-img2
+{
+  width:71%;
+  height: 197px;
+}
+.small-img1
+{
+  width:27%;
+  height: 200px;
+}
+.small-img3
+{
+  width:27%;
+  height: 200px;
+}
+.small-img4
+{
+  width:26.5%;
+  height: 200px;
+}
+.sec-8{
+  background-image: 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(7, 7, 7, 0.5)),
+  url("/Assests/sec6-bg.png");
+  height: 784px;
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  background-position: center; 
+}
+.sec-8-contain{
+  position: relative;
 }
 
+.sec-8-heading h1, .sec-8-blog h1{
+  margin-top: 73px!important;
+  /* margin-left: 50px; */
+}
+
+
+.event-date{
+box-sizing: border-box;
+width: 143px;
+height: 143px;
+border: 2px solid #3AC569;
+
+}
+.event-text{
+width: 406px;
+height: 60px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.event-time-loc{
+  width: 401px;
+}
+.event-line{
+width: 467px;
+height: 0px;
+border: 1px solid #FFFFFF;
+
+}
+
+.stright-line{
+width: 541px;
+height: 0px;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+position: absolute;
+top: 460px;
+right: 17%;
+}
+
+.blog-detail {
+  margin-top: 76px;
+}
+.blog-text{
+  width: 299px ;
+}
+.blog-date img{
+  width: 16px;
+  height: 16px;
+  
+}
+
+.blog-line{
+width: 342px;
+height: 0px;
+border: 1px solid #FFFFFF;
+
+}
+/* section 8 */
+
+.bg8{
+
+  background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(/Assests/sec8-bg.png);
+  height: 145px;
+  /* background: #040404CC; */
+}
+.tes-img1
+{
+  position: absolute;
+  left: 49%;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+.tes-img2
+{
+  position: absolute;
+  left: 45%;
+  margin-bottom: 50px;
+}
+.tes-img3
+{
+  position: absolute;
+  left: 53%;
+  margin-bottom: 50px;
+
+}
