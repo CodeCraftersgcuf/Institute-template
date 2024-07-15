@@ -8036,6 +8036,9 @@ textarea.form-control-lg {
 .mt-4-5{
   margin-top: 2.4rem !important;
 }
+.mt-6{
+  margin-top: 4.575rem !important;
+}
 .mt-9{
   margin-top: 4.8rem !important;
 
@@ -8331,16 +8334,109 @@ textarea.form-control-lg {
 .gap-4 {
   gap: 1.5rem !important;
 }
-
+.gap-4-5{
+  gap: 5rem !important;
+}
 .gap-5 {
   gap: 6rem !important;
 }
+/* Navbar Styling Font  */
+.font-inter-nav-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.font-inter-3-nav-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+.font-inter-3-nav-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.7);
+margin-top: 3px;
+}
+.font-inter-nav-links{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/* End of Navbar Styling Font  */
+
+
+/* Start of Hero Section  */
+.font-inter-hero-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.font-inter-hero-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.font-inter-hero-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+/* End of Hero Section  */
+
+/* Start of Card Section  */
+.font-inter-card-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+/* End of Card Section  */
 .font-inter-p{
 font-family: Inter;
 font-size: 25px;
 font-weight: 500;
 line-height: 30.26px;
 text-align: left;
+color: #1D1D1D;
 }
 .font-inter-p-small{
 font-family: 'Inter';
@@ -8452,9 +8548,12 @@ color: #FFFFFF;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 1.2rem;
 line-height: 144%;
 color: #333333;
+width: 634px;
+height: 49px;
+background: #FFFFFF;
 }
 .font-inter-minus{
   width: 634px;
