@@ -1,0 +1,121 @@
+
+.hero-img
+{
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../img/sec-1-bg.png');
+  height:546px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.blog{
+    color: #3AC569;
+}
+.apply{
+background-color: #3AC569;
+}
+.indi-post{
+  /* Rectangle 169 */
+
+box-sizing: border-box;
+width: 109px;
+height: 36px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.post-denti{
+  width: 85px!important;
+}
+.post-doc{
+  width: 92px!important;
+}
+.post-equip{
+  width: 104px!important;
+}
+.post-health{
+  width: 79px!important;
+}
+.post-hos{
+  width: 92px!important;
+}
+.post-sur{
+  width: 79px!important;
+}
+
+/* Start of Footer Section  */
+
+footer ul li {
+    padding: 5px 0px;
+  }
+  footer ul li a,
+  .sub-detail {
+    color: #fdf9f9b2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  .straight-line {
+    height: 250px;
+    border: 1px solid #ffffff;
+  }
+  .line-foot {
+    padding-left: 25px;
+  }
+  .input {
+    line-height: 2rem;
+    font-size: 18px;
+    border-radius: 0;
+    background-color: white;
+    padding-left: 18px;
+  }
+  .input::placeholder {
+    color: #00000080;
+  }
+  
+  .bgf {
+    background-image: url("../assets-12/footer.png");
+    height: 425px;
+    background-color: 
+    #000647;
+  }
+  .text-ladu {
+    color: #fdf9f9b2;
+  }
+  .btn-foot {
+    border-radius: revert !important;
+    border: none;
+  }
+  .foot-btn-div {
+    width: 65px;
+    height: 47px;
+    background: #3ac569;
+  }
+  
+  .foot-hor-line {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #ffffff;
+  }
+  /* End of Footer Section  */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
