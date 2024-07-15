@@ -1,0 +1,156 @@
+.hero-img
+{
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../assests/Rectangle\ 57.png');
+  height:546px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.header-3 {
+    --bs-gutter-x:0px;
+  }
+  ul{
+    list-style: none;
+  }
+  .f-size
+  {
+    font-size:80px;
+  }
+.star-size
+{
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+}
+.search-section {
+  display: flex;
+
+}
+.serach-form {
+  padding:0px 10px;
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 30px;
+  
+}
+.form-control {
+  height: 40px;
+  background-color: #F5F4F0;
+  border-radius: 0px;
+  padding-left: 30px; /* Make space for the icon */
+}
+.search-form .btn-get {
+  background-color: #3AC569;
+  border-color: #3AC569;
+  height: 40px;
+  font-size:15px;
+  color: white;
+  width: 100%;
+  font-weight:bolder;
+  border-radius: 0px;
+}
+.search-form .btn-get:hover {
+  background-color: #5dc27e;
+  border-color: #5dc27e;
+}
+.mgt
+{
+  margin-top: 80px;
+}
+.border-b
+{
+  border-bottom: 1px solid #00000040;
+  width: 240px;
+}
+.txt-size
+{
+  font-size: 17px;
+  font-weight: 400;
+
+}
+.strai-line {
+  width: 1301px;
+  height: 0px;
+  border: 1px solid;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 50%;
+  opacity: 0.3;
+  right: 26%;
+}
+.row-p
+{
+  position: relative;
+}
+.card-img 
+{
+  width: 264px;
+  height: 253px;
+}
+.sec3
+{
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../assests/Rectangle\ 110.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:305px;
+  margin-top: 50px;
+  
+}
+/* Start of Footer Section  */
+
+footer ul li {
+  padding: 5px 0px;
+}
+footer ul li a,
+.sub-detail {
+  color: #fdf9f9b2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+}
+.straight-line {
+  height: 250px;
+  border: 1px solid #ffffff;
+}
+.line-foot {
+  padding-left: 25px;
+}
+.input {
+  line-height: 2rem;
+  font-size: 18px;
+  border-radius: 0;
+  background-color: white;
+  padding-left: 18px;
+}
+.input::placeholder {
+  color: #00000080;
+}
+
+.bgf {
+  background-image: url("../assets-12/footer.png");
+  height: 425px;
+  background-color: 
+  #000647;
+}
+.text-ladu {
+  color: #fdf9f9b2;
+}
+.btn-foot {
+  border-radius: revert !important;
+  border: none;
+}
+.foot-btn-div {
+  width: 65px;
+  height: 47px;
+  background: #3ac569;
+}
+
+.foot-hor-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+/* End of Footer Section  */
