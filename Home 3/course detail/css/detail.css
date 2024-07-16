@@ -5,6 +5,15 @@
     background-position: center;
     background-size: cover;
 }
+.lol{
+    border: 1px solid #00000080;
+    height: 50px;
+}
+.ll{
+    width: 6px;
+    /* height: 500px; */
+    background-color: #3AC569;
+}
 .co{
     color: #CACACA;
 }
@@ -14,6 +23,29 @@
 }
 .butt{
     color: #3AC569;
+}
+.but{
+    border: 1px solid #3AC569;
+
+}
+.pa{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 820px;
+}
+.pe{    
+    border: 1px solid #CACACA;
+    padding:0px 25px;
+
+}
+.imgg{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+}
+.starr{
+    margin-top: 25px;
 }
 .border-b
 {
@@ -90,5 +122,5 @@ color: #3AC569;
  width: 465px;
 height: 12px;
 border-radius: 100px;
-background-color: #D9D9D9;
+background-color: #D9D9D9;
 }
