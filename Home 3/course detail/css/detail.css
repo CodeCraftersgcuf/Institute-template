@@ -15,3 +15,80 @@
 .butt{
     color: #3AC569;
 }
+.border-b
+{
+    border-bottom: 4px solid #CACACA;
+    width: 16px;
+    margin-top: 28px;
+    margin-left: 27px;
+}
+.sec3-bg
+{
+    width: 100%;
+    background-color: #F5F4F0;
+
+}
+.font-size
+{
+    font-size: 15px;
+}
+.c-detail
+{
+    padding-left: 25px;
+}
+.btn-get {
+    background-color: #3AC569;
+    border-color: #3AC569;
+    font-size:15px;
+    color: white;
+    border:0;
+    font-weight:bolder;
+    border-radius: 0px;
+    width: 86px;
+    height: 25px;
+
+  }
+.btn-get:hover {
+    background-color: #2e7445;
+    border-color: #2e7445;
+  }
+  .b-bottom
+  {
+   border-bottom: 1px solid #00000040;
+}
+.cd-border
+{
+    border: 1px solid #00000040;
+    border-bottom: 0;
+}
+.card-img 
+{
+  width: 150px;
+  height:150px;
+}
+.border-left
+{
+    border-left: 1px solid #00000040;
+}
+.review
+{
+  width: 150px;
+  border: 1px solid #3AC569;
+  height:150px;
+}
+.rate
+{
+color: #3AC569;
+}
+.color2
+{
+    color: #000000B2;
+
+}
+.bar
+{
+ width: 465px;
+height: 12px;
+border-radius: 100px;
+background-color: #D9D9D9;
+}
