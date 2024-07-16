@@ -4,6 +4,8 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -31,12 +33,12 @@
   --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
-  --bs-success: #198754;
+  --bs-success: #0aff8d;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: rgb(58, 197, 105);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -44,7 +46,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 58, 197, 105;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -80,11 +82,11 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff00;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
-  --bs-secondary-color: rgba(33, 37, 41, 0.75);
+  --bs-secondary-color: rgba(255, 255, 255, 0.75);
   --bs-secondary-color-rgb: 33, 37, 41;
   --bs-secondary-bg: #e9ecef;
   --bs-secondary-bg-rgb: 233, 236, 239;
@@ -105,7 +107,7 @@
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.800rem;
+  --bs-border-radius: 28px;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
   --bs-border-radius-xl: 1rem;
@@ -123,10 +125,7 @@
   --bs-form-valid-border-color: #198754;
   --bs-form-invalid-color: #dc3545;
   --bs-form-invalid-border-color: #dc3545;
-  
 }
-
- 
 
 [data-bs-theme=dark] {
   color-scheme: dark;
@@ -2162,9 +2161,11 @@ progress {
 .form-control::-moz-placeholder {
   color: var(--bs-secondary-color);
   opacity: 1;
+  background-color: #ffffff00;
 }
 .form-control::placeholder {
   color: var(--bs-secondary-color);
+  background-color: #ffffff00;
   opacity: 1;
 }
 .form-control:disabled {
@@ -2499,7 +2500,6 @@ textarea.form-control-lg {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
-
 }
 
 [data-bs-theme=dark] .form-switch .form-check-input:not(:checked):not(:focus) {
@@ -3093,7 +3093,7 @@ textarea.form-control-lg {
 
 .btn-success {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #198754;
+  --bs-btn-bg: #3AC569;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #157347;
@@ -3106,7 +3106,6 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #198754;
   --bs-btn-disabled-border-color: #198754;
-  --btn-success-bg: #3AC569;
 }
 
 .btn-info {
@@ -4390,7 +4389,7 @@ textarea.form-control-lg {
   --bs-card-subtitle-color: ;
   --bs-card-border-width: var(--bs-border-width);
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: var(--bs-border-radius);
+  /* --bs-card-border-radius: var(--bs-border-radius); */
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
   --bs-card-cap-padding-y: 0.5rem;
@@ -6885,6 +6884,9 @@ textarea.form-control-lg {
   color: #fff !important;
   background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
 }
+.text-bg-green {
+  color:  #3AC569 !important;
+}
 
 .link-primary {
   color: RGBA(var(--bs-primary-rgb), var(--bs-link-opacity, 1)) !important;
@@ -8014,11 +8016,19 @@ textarea.form-control-lg {
 .mt-2 {
   margin-top: 0.5rem !important;
 }
-
+.mt-2-3{
+  margin-top: 1.2rem !important;
+}
+.mt-1-2{
+  margin-top: 0.8rem!important;
+}
 .mt-3 {
   margin-top: 1rem !important;
 }
+.mt-3-4{
+  margin-top: 1.3rem !important;
 
+}
 .mt-4 {
   margin-top: 1.5rem !important;
 }
@@ -8026,7 +8036,16 @@ textarea.form-control-lg {
 .mt-5 {
   margin-top: 3rem !important;
 }
+.mt-4-5{
+  margin-top: 2.4rem !important;
+}
+.mt-6{
+  margin-top: 4.575rem !important;
+}
+.mt-9{
+  margin-top: 4.8rem !important;
 
+}
 .mt-auto {
   margin-top: auto !important;
 }
@@ -8098,7 +8117,9 @@ textarea.form-control-lg {
 .ms-2 {
   margin-left: 0.5rem !important;
 }
-
+.ms-2-3{
+  margin-left: .8rem!important;
+}
 .ms-3 {
   margin-left: 1rem !important;
 }
@@ -8106,7 +8127,9 @@ textarea.form-control-lg {
 .ms-4 {
   margin-left: 1.5rem !important;
 }
-
+.ms-4-5{
+  margin-left: 2.3rem !important;
+}
 .ms-5 {
   margin-left: 3rem !important;
 }
@@ -8222,7 +8245,9 @@ textarea.form-control-lg {
 .pt-5 {
   padding-top: 3rem !important;
 }
-
+.pt-6{
+  padding-top: 9rem !important;
+}
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -8270,7 +8295,9 @@ textarea.form-control-lg {
 .pb-5 {
   padding-bottom: 3rem !important;
 }
-
+.pb-7{
+  padding-bottom: 9rem !important;
+}
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -8290,11 +8317,15 @@ textarea.form-control-lg {
 .ps-4 {
   padding-left: 1.5rem !important;
 }
-
+.ps-4-5{
+  padding-left: 2.2rem !important;
+}
 .ps-5 {
   padding-left: 3rem !important;
 }
-
+.ps-7{
+  padding-left: 5rem !important;
+}
 .gap-0 {
   gap: 0 !important;
 }
@@ -8314,10 +8345,700 @@ textarea.form-control-lg {
 .gap-4 {
   gap: 1.5rem !important;
 }
-
-.gap-5 {
-  gap: 3rem !important;
+.gap-4-5{
+  gap: 5rem !important;
 }
+.gap-5 {
+  gap: 6rem !important;
+}
+/* Navbar Styling Font  */
+.font-inter-nav-bar{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.font-inter-nav-logo{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+text-transform: uppercase;
+color: #3AC569;
+}
+.font-inter-nav-links{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.font-inter-nav-cal-us{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+.font-inter-nav-cal-no{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #000000;
+}
+/* End of Navbar Styling Font  */
+
+
+/* Start of Hero Section  */
+.font-inter-hero-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+text-transform: capitalize;
+color: #FFFFFF;
+
+
+}
+.font-inter-hero-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.font-inter-hero-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+/* End of Hero Section  */
+
+/* Start of Card Section  */
+.font-inter-card-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-fea-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-transform: capitalize;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 0px;
+}
+.font-inter-goal-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+text-transform: capitalize;
+color: #CACACA;
+padding-top: 77px;
+margin-bottom: 0.5rem;
+}
+.font-inter-goal-main{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+text-transform: capitalize;
+color: #3AC569;
+}
+.font-inter-goal-per{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 97px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: -1rem;
+}
+.font-inter-goal-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.font-inter-form-why{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-goal-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+width: 332px;
+}
+.font-inter-goal-sub-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-goal-can-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-lora-test-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-test-card-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-test-card-subtitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-test-card-det{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-test-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.font-lora-latest-new-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+margin-bottom: 0px;
+}
+.font-inter-new-subtitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-news-card-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-news-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 0px;
+}
+.font-inter-new-card-admin{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.8);
+}
+.font-inter-new-card-read-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: rgba(255, 254, 254, 0.8);
+}
+/* End of Card Section  */
+.font-inter-p{
+font-family: Inter;
+font-size: 25px;
+font-weight: 500;
+line-height: 30.26px;
+text-align: left;
+color: #1D1D1D;
+}
+.font-inter-p-small{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.7);
+}
+.font-inter-p-small-light{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #333333;
+
+
+}
+.font-lora-feature-course-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-transform: capitalize;
+color: #000000;
+}
+.font-lora-feature-course{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-gallery{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-gallery-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-news{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-lora-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #FFFDFD;
+}
+.font-lora-green-title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 45px;
+text-transform: uppercase;
+color: #3AC569;
+}
+.font-inter-small-green{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+color: #3AC569;
+}
+.font-inter-p-small-light-dark{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+text-transform: uppercase;
+color: #333333;
+}
+.font-inter-card{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.font-inter-card-read{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+}
+.font-inter-choose-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.font-inter-faqs{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 144%;
+color: #333333;
+width: 634px;
+height: 49px;
+background: #FFFFFF;
+}
+.font-inter-minus{
+  width: 634px;
+  height: 49px;
+  background: #333333;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 144%;
+  color: #ffffff;
+}
+.font-inter-event{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.font-inter-date-first{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-date-second{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-event-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.font-inter-time{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #CACACA;
+
+}
+.font-inter-new-card{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-news-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.font-inter-foot{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+  .font-inter-foot-top{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FDF9F9;
+  }
+  .font-inter-foot-last{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+
+
+
+ /* Start of Course Section   */
+.font-inter-cor-nav{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-cor-nav-email{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.font-inter-cor-nav-link{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #3AC569;
+}
+.font-inter-cor-nav-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-cor-hero{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 73px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-cor-hero-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-cor-learn-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-cor-learn-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+.font-inter-cor-lor-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFEFE;
+}
+.font-inter-cor-lor-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFEFE;
+}
+.font-inter-cor-ready{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+.font-inter-cor-ready-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-cor-ready-card-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-cor-ready-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.font-inter-cor-ready-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.font-inter-cor-start-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+.font-inter-cor-start-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-cor-start-box{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+ /* End of Course Section  */
 
 .row-gap-0 {
   row-gap: 0 !important;
@@ -8394,7 +9115,7 @@ textarea.form-control-lg {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 17px !important;
 }
 
 .fs-6 {

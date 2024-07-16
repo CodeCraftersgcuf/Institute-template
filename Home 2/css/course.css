@@ -7,7 +7,9 @@
     border-radius: 35px;
     color: white;
     border: none;
-}
+    width: 178px;
+    height: 56px;
+  }
 .logo{
     height: 98px;
 }
@@ -29,57 +31,63 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cours-sec3-bg.png);
 }
 
-footer ul li{
-    padding: 5px 0px;
-  }
-  footer ul li a{
-    color:#FDF9F9B2;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    text-decoration: none;
-  }
-  .straight-line{
-    height: 250px;
-    border: 1px solid #FFFFFF;
-    }
-  
-  .input{
-    line-height: 2rem;
-    font-size: 18px;
-    border-radius: 0;
-  }
-  .bgf{
-    background-image: url(/Assests/footer.png);
-    height: 425px;
-    background-color: #000647;
-  }
-  .text-ladu{
-    color: #FDF9F9B2;
-  }
+/* Start of Footer Section  */
+ul{
+  list-style: none;
+}
+ul li a img{
+  width: 8px;
+  height: 8px;
+}
+footer ul li {
+  padding: 5px 0px;
+}
+footer ul li a,
+.sub-detail {
+  color: #fdf9f9b2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+}
+.straight-line {
+  height: 250px;
+  border: 1px solid #ffffff;
+}
+.line-foot {
+  padding-left: 25px;
+}
+.input {
+  line-height: 2rem;
+  font-size: 18px;
+  border-radius: 0;
+  background-color: white;
+  padding-left: 18px;
+}
+.input::placeholder {
+  color: #00000080;
+}
 
+.bgf {
+  background-image: url("/img/footer.png");
+  height: 425px;
+}
+.text-ladu {
+  color: #fdf9f9b2;
+}
+.btn-foot {
+  border-radius: revert !important;
+  border: none;
+}
+.foot-btn-div {
+  width: 65px;
+  height: 47px;
+  background: #3ac569;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.foot-hor-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+/* End of Footer Section  */
