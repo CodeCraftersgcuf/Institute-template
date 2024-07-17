@@ -1,6 +1,30 @@
 .text-succes{
     color: #3AC569;
 }
+@font-face {
+  font-family:inter;
+  src: url('../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('../fonts/Inter/static/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/Lora-Bold.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/static/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('../fonts/Lora/Lora-Regular.ttf');
+}
 .btnnm{
     padding: 10px 25px;
     background-color: #3AC569;
