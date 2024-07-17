@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 p{
   font-size: 20px;
   font-weight: 400;
@@ -160,30 +163,66 @@ ul{
   background-color: #0056b3;
   border-color: #004085;
 }
-footer ul li{
+/* Start of Footer Section  */
+ul{
+  list-style: none;
+}
+ul li a img{
+  width: 8px;
+  height: 8px;
+}
+footer ul li {
   padding: 5px 0px;
 }
-footer ul li a{
-  color:#FDF9F9B2;
+footer ul li a,
+.sub-detail {
+  color: #fdf9f9b2;
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
   text-decoration: none;
 }
-.straight-line{
+.straight-line {
   height: 250px;
-  border: 1px solid #FFFFFF;
-  }
-
-.input{
+  border: 1px solid #ffffff;
+}
+.line-foot {
+  padding-left: 25px;
+}
+.input {
   line-height: 2rem;
   font-size: 18px;
   border-radius: 0;
+  background-color: white;
+  padding-left: 18px;
 }
-.bgf{
-  background-image: url(/Assests/footer.png);
+.input::placeholder {
+  color: #00000080;
+}
+
+.bgf {
+  background-image: url("/Assests/footer.png");
   height: 425px;
 }
+.text-ladu {
+  color: #fdf9f9b2;
+}
+.btn-foot {
+  border-radius: revert !important;
+  border: none;
+}
+.foot-btn-div {
+  width: 65px;
+  height: 47px;
+  background: #3ac569;
+}
+
+.foot-hor-line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff;
+}
+/* End of Footer Section  */
 .text-ladu{
   color: #FDF9F9B2;
 }
@@ -225,80 +264,81 @@ footer ul li a{
   width:26.5%;
   height: 200px;
 }
-.sec-8{
-  background-image: 
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(7, 7, 7, 0.5)),
-  url("/Assests/sec6-bg.png");
-  height: 784px;
-  background-repeat: no-repeat;
-  background-size: cover  ;
-  background-position: center; 
+
+.sec-8 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.63),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Assests/sec6-bg.png");
+  height: 885px;
+  width: 100%;
+  background-size: cover;
 }
-.sec-8-contain{
+.sec-8-contain {
   position: relative;
 }
 
-.sec-8-heading h1, .sec-8-blog h1{
-  margin-top: 73px!important;
+.sec-8-heading h1,
+.sec-8-blog h1 {
+  margin-top: 95px !important;
   /* margin-left: 50px; */
 }
 
-
-.event-date{
-box-sizing: border-box;
-width: 143px;
-height: 143px;
-border: 2px solid #3AC569;
-
+.event-date {
+  box-sizing: border-box;
+  width: 143px;
+  height: 143px;
+  border: 2px solid #3ac569;
 }
-.event-text{
-width: 406px;
-height: 60px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 30px;
-color: #FFFFFF;
+.event-text {
+  width: 406px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
 }
-.event-time-loc{
+.event-time-loc {
   width: 401px;
 }
-.event-line{
-width: 467px;
-height: 0px;
-border: 1px solid #FFFFFF;
-
+.event-line {
+  width: 467px;
+  height: 0px;
+  border: 1px solid #ffffff;
 }
 
-.stright-line{
-width: 541px;
-height: 0px;
-border: 1px solid #FFFFFF;
-transform: rotate(90deg);
-position: absolute;
-top: 460px;
-right: 17%;
+.stright-line {
+  width: 541px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 460px;
+  right: 22%;
 }
 
 .blog-detail {
-  margin-top: 76px;
+  margin-top: 67px;
 }
-.blog-text{
-  width: 299px ;
+.blog-text {
+  width: 299px;
 }
-.blog-date img{
+.blog-date img {
   width: 16px;
   height: 16px;
-  
 }
 
-.blog-line{
-width: 342px;
-height: 0px;
-border: 1px solid #FFFFFF;
-
+.blog-line {
+  width: 342px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-top: 34px;
 }
+
 /* section 8 */
 
 .bg8{
