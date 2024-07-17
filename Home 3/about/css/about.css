@@ -1,53 +1,68 @@
-.pad{
-    padding-left:150px ;
+.pad {
+  padding-left: 150px;
 }
-.abot::after{
-    content: '';
-    position: absolute;
-    width: 90px;
-    height: 2px;
-    background-color: #3AC569;
-    top: 635px;
-    left: 150px;
-}
-
-.bgg{
-    background-color: #F5F4F0;
-}
-.bga{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(/about/assests-about/sec4-bg.png);
+.abot::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 2px;
+  background-color: #3ac569;
+  top: 635px;
+  left: 150px;
 }
 
-.bgl{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),url(/about/assests-about/sec5-bg.png);
-    height: 752px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.bgg {
+  background-color: #f5f4f0;
 }
-.cgf{
-    width: 285px;
-    height: 411px;
-    background-color: #fff;
+.bga {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url(/assests-about/sec4-bg.png);
 }
-.bol{
-    position: relative;
-    top: -15px;
+
+.bgl {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.7),
+      rgba(20, 20, 20, 0.7)
+    ),
+    url(/assests-about/sec5-bg.png);
+  height: 752px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.bkl{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(/about/assests-about/hero-bg.png);
-    height: 546px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.cgf {
+  width: 285px;
+  height: 411px;
+  background-color: #fff;
 }
-.co{
-    color: #CACACA;
+.bol {
+  position: relative;
+  top: -15px;
 }
-.but{
-    background-color: #3AC569;
-    border-radius: 28px;
+.bkl {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url(/assests-about/hero-bg.png);
+  height: 546px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.butt{
-    color: #3AC569;
+.co {
+  color: #cacaca;
+}
+.but {
+  background-color: #3ac569;
+  border-radius: 28px;
+}
+.butt {
+  color: #3ac569;
 }

@@ -42,7 +42,7 @@
 }
 .scroll{
     height: 530px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar{
     width: 10px;
