@@ -1,8 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
+@font-face {
+  font-family:inter;
+  src: url('../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('../fonts/Inter/static/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/Lora-Bold.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/static/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('../fonts/Lora/Lora-Regular.ttf');
+}
 * {
-  font-family: Inter;
+  font-family: inter;
+}
+
+.link
+{
+  font-family:inter-bold;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
 }
 .header {
   height: 55px;
@@ -122,8 +153,47 @@ ul {
 .hero-inner {
   padding-top: 10rem;
 }
+.m-right
+{
+  margin-right: 20px
+}
+.b-ground
+{
+  background: #80808045; 
+  background: #ffffff33;
+}
+.nav-txt
+{
+  font-family:inter-bold;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  margin-left: 15px;
+}
+.txt-get
+{
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+}
+.high1
+{
+  height: 4px;
+}
+.high2
+{
+  height: 8px;
+}
+.widt
+{
+  max-width: 700px;
+}
 .hero-title {
-  font-family: "Inter";
+  font-family:inter-bold;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -131,6 +201,49 @@ ul {
   text-transform: capitalize;
 
   color: #ffffff;
+}
+.high-m
+{
+      margin-top: -14px;
+      height: 130px
+}
+.p-top
+{
+  padding-top: 10px;
+}
+.hth
+{
+  height: 196px;
+}
+.neg-m
+{
+  margin-left: -74px; 
+  margin-top: -6px;
+}
+.widt1
+{
+  width: 395px;
+}
+.p-left
+{
+  padding-left: 30px;
+}
+.max-widt
+{
+  max-width: 367px;
+}
+.len-m
+{
+  margin-top: 71px; 
+  margin-bottom: 35px;
+}
+.m1-top
+{
+  margin-top: 4px;
+}
+.m-top
+{
+  margin-top: 39px
 }
 /* End of Hero Section  */
 
@@ -181,7 +294,7 @@ ul {
 /* Start of Forth Section  */
 .sec-4-title,
 .sec-4-title b {
-  font-family: "Lora";
+  font-family: lora;
   font-style: normal;
   font-size: 40px;
   line-height: 51px;
@@ -244,7 +357,7 @@ ul {
 }
 .sec-5-title {
   /* Feature Courses */
-  font-family: "Lora";
+  font-family: lora-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -387,7 +500,7 @@ ul {
 .plus-minus-text {
   width: 523px;
   height: 108px;
-  font-family: "Inter";
+  font-family: inter-medium;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -429,7 +542,7 @@ ul {
 .event-text {
   width: 406px;
   height: 60px;
-  font-family: "Inter";
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -491,9 +604,6 @@ ul {
   background: #3ac569;
 }
 
-.grid-image-portion {
-  /* width: 1220px; */
-}
 .image-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

@@ -1,3 +1,28 @@
+@font-face {
+  font-family:inter;
+  src: url('../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('../fonts/Inter/static/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/Lora-Bold.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('../fonts/Lora/static/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('../fonts/Lora/Lora-Regular.ttf');
+}
+
 /*nav*/
 .main-first-sec{
     background-color: 
@@ -78,7 +103,7 @@
 
 .sec-4-title,
 .sec-4-title b {
-  font-family: "Lora";
+  font-family: lora-bold;
   font-style: normal;
   font-size: 40px;
   line-height: 51px;
@@ -190,7 +215,7 @@ height: 0px;
 .event-text {
   width: 406px;
   height: 60px;
-  font-family: "Inter";
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
