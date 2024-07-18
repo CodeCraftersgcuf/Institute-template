@@ -6,13 +6,15 @@
     background-size: cover;
 }
 .lol{
-    border: 1px solid #00000080;
+    border: 1px solid #0000002f;
     height: 50px;
 }
 .ll{
     width: 6px;
-    /* height: 500px; */
     background-color: #3AC569;
+}
+.rode{
+  border-right: 1px solid #0000004d;  
 }
 .co{
     color: #CACACA;
@@ -35,9 +37,11 @@
     width: 820px;
 }
 .pe{    
-    border: 1px solid #CACACA;
-    padding:0px 25px;
+    border: 1px solid #0000003f;
 
+}
+.tagg{
+  width: 125px;
 }
 .imgg{
     position: absolute;
@@ -123,7 +127,7 @@ color: #3AC569;
  width: 465px;
 height: 12px;
 border-radius: 100px;
-background-color: #D9D9D9;
+background-color: #d9d9d9;
 }
 
 /* Start of Footer Section  */
@@ -159,7 +163,7 @@ footer ul li {
   
   .bgf {
     background-image: url("../assets-12/footer.png");
-    height: 425px;
+    height: auto;
   }
   .text-ladu {
     color: #fdf9f9b2;
