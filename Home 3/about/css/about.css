@@ -20,7 +20,7 @@
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url(/assests-about/sec4-bg.png);
+    url('/about/assests-about/sec4-bg.png');
 }
 
 .bgl {
@@ -29,7 +29,7 @@
       rgba(20, 20, 20, 0.7),
       rgba(20, 20, 20, 0.7)
     ),
-    url(/assests-about/sec5-bg.png);
+    url('/about/assests-about/sec5-bg.png');
   height: 752px;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,7 +50,7 @@
       rgba(20, 20, 20, 0.6),
       rgba(20, 20, 20, 0.6)
     ),
-    url(/assests-about/hero-bg.png);
+    url('/about/assests-about/hero-bg.png');
   height: 546px;
   background-repeat: no-repeat;
   background-position: center;

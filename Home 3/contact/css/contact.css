@@ -24,7 +24,7 @@
     top: -15px;
 }
 .bkl{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(/assests-contact/hero-bg.png);
+    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('/contact/assests-contact/hero-bg.png');
     height: 546px;
     background-repeat: no-repeat;
     background-position: center;
