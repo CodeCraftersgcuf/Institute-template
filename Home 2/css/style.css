@@ -69,6 +69,8 @@
     bottom: 88px;
    z-index: -1;
    margin-top: -32px;
+   height: auto;
+   width: auto;
 }
 .btn{
     background-color: #3AC569;
@@ -191,7 +193,7 @@ height: 0px;
       rgba(0, 0, 0, 0.63),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/img/Rectangle\ 26.png");
+    url("../img/Rectangle 26.png");
   height: 784px;
   width: 100%;
   background-size: cover;
@@ -303,7 +305,7 @@ height: 0px;
 /* Start of Lenovo Section  */
 
 .lenovo {
-  background-image: url("/img/sec-9-bg.png");
+  background-image: url("../img/sec-9-bg.png");
   height: 145px;
   background-repeat: no-repeat;
   width: 100%;
@@ -374,3 +376,75 @@ footer ul li a,
   border: 1px solid #ffffff;
 }
 /* End of Footer Section  */
+
+/* inline css  */
+
+.kl{
+  padding-top: 28%;
+}
+.nm{
+  height: 56px;
+   width: 178px;
+}
+.jk{
+  max-width: 700px;
+}
+.er{
+  margin-left: -15px;
+}
+.fg{
+  width: 293px; height: 415px;
+}
+.yu{
+  height: 213px; width: 266px;
+}
+.qw{
+  width: 293px; height: 415px; margin-left: 27px;
+}
+.il{
+  height: 213px; width: 266px;
+}
+.tg{
+  width: 293px; height: 415px; margin-left: 27px;
+}
+.ws{
+  height: 213px; width: 266px;
+}
+.pl{
+  width: 293px; height: 415px; margin-left: 27px;
+}
+.km{
+  height: 213px; width: 266px;
+}
+.iuy{
+  width: 293px; height: 415px; margin-left: 27px;
+}
+.yhb{
+  width: 293px; height: 415px; margin-left: 27px;
+}
+.xcv{
+  height: 213px; width: 266px;
+}
+.asd{
+  margin-left: 50px; margin-top: 70px;
+}
+.az{
+  width: 392px;height: 361px;
+}
+.bv{
+  position: relative; left: 140px;bottom: 70px;
+}
+.vfr{
+  margin-top: 65px;
+}
+.ftg{
+  width: 392px; height: 373px;
+}
+.drt{
+  height: 209px; width: 356px;
+}
+.edc{
+  height: 209px; width: 356px;
+}
+
+
