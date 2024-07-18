@@ -1,6 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family:inter;
+  src: url('.../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('.../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('.../fonts/Inter/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('.../fonts/Lora/Lora-Boldttf');
+}
+@font-face {
+  font-family:lora-medium;
+  src: url('.../fonts/Lora/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('.../fonts/Lora/Lora-Regular.ttf');
+}
+@font-face {
+  font-family:layla;
+  src: url('.../fonts/Laila/Laila-Regular.ttf');
+}
 /* Additional styles here */
 * {
   margin: 0;
@@ -118,7 +143,7 @@ margin-left: -13px;
 margin-top: 10px;
 }
 .course-det-p{
-font-family: 'Inter';
+font-family:inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;

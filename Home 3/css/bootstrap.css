@@ -5,9 +5,34 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
- @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
- @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+ @font-face {
+  font-family:inter;
+  src: url('/fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('/fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('/fonts/Inter/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('/fonts/Lora/Lora-Boldttf');
+}
+@font-face {
+  font-family:lora-medium;
+  src: url('/fonts/Lora/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('/fonts/Lora/Lora-Regular.ttf');
+}
+@font-face {
+  font-family:layla;
+  src: url('/fonts/Laila/Laila-Regular.ttf');
+}
  :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -8402,7 +8427,7 @@ textarea.form-control-lg {
 /* Start Styling Font  */
 
 .font-inter-home3-nav{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -8411,7 +8436,7 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-home3-nav-ex{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -8419,7 +8444,7 @@ line-height: 22px;
 color: #CACACA;
 }
 .font-inter-home3-nav-links{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8428,7 +8453,7 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-home3-nav-btn{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8437,7 +8462,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-home3-hero-sub{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -8446,7 +8471,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-home3-hero-main{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 700;
 font-size: 80px;
@@ -8456,7 +8481,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-home3-hero-btn{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8465,7 +8490,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-home3-card-subh{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8474,7 +8499,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-home3-card-time{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -8483,7 +8508,7 @@ text-transform: capitalize;
 color: #CACACA;
 }
 .font-inter-home3-news-title{
-font-family: 'Lora';
+font-family: lora-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -8492,7 +8517,7 @@ text-transform: capitalize;
 color: #232323;
 }
 .font-inter-home3-new-subtitle{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -8500,7 +8525,7 @@ line-height: 24px;
 color: #1D1D1D;
 }
 .font-inter-home3-new-date{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 17px;
@@ -8509,7 +8534,7 @@ text-transform: capitalize;
 color: rgba(29, 29, 29, 0.7);
 }
 .font-lora-home3-why{
-font-family: 'Lora';
+font-family:lora-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -8518,7 +8543,7 @@ text-transform: capitalize;
 color: #232323;
 }
 .font-inter-home3-why-about{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 25px;
@@ -8526,7 +8551,7 @@ line-height: 30px;
 color: #1D1D1D;
 }
 .font-inter-home3-sub-why{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -8535,7 +8560,7 @@ color: rgba(0, 0, 0, 0.7);
 }
 
 .font-lora-home3-corse{
-font-family: 'Lora';
+font-family: lora-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
@@ -8544,7 +8569,7 @@ text-transform: capitalize;
 color: #232323;
 }
 .font-lora-home3-cor-card-h{
-font-family: 'Lora';
+font-family: lora-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 25px;
@@ -8554,7 +8579,7 @@ color: #232323;
 margin-top: 10px;
 }
 .font-lora-home3-cor-card-p{
-font-family: 'Lora';
+font-family: lora;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8563,7 +8588,7 @@ text-transform: capitalize;
 color: rgba(0, 0, 0, 0.5);
 }
 .font-inter-home3-goal{
-font-family: 'Inter';
+font-family: lora-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -8572,7 +8597,7 @@ text-transform: capitalize;
 color: #CACACA;
 }
 .font-inter-home3-goal-h{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 700;
 font-size: 60px;
@@ -8582,7 +8607,7 @@ text-transform: capitalize;
 color: #3AC569;
 }
 .font-inter-home3-goal-per{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 700;
 font-size: 80px;
@@ -8592,7 +8617,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-home3-goal-p{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
@@ -8602,7 +8627,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-home3-goal-card-h{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -8612,7 +8637,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-home3-goal-card-p{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -8621,7 +8646,7 @@ color: #D2D2D2;
 }
 
 .font-inter-home3-goal-card-time{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -8629,7 +8654,7 @@ line-height: 24px;
 color: #3AC569;
 }
 .font-inter-home3-lorem{
-font-family: 'Inter';
+font-family: inter;
 font-style: italic;
 font-weight: 400;
 font-size: 25px;
@@ -8639,7 +8664,7 @@ text-transform: capitalize;
 color: rgba(0, 0, 0, 0.5);
 }
 .font-inter-home3-mr{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -8649,7 +8674,7 @@ text-transform: capitalize;
 color: #3AC569;
 }
 .font-inter-home3-mg{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -8662,7 +8687,7 @@ color: rgba(0, 0, 0, 0.75);
 /* Event Section Styling  */
 
 .font-inter-event{
-  font-family: 'Inter';
+  font-family:inter-bold;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -8671,7 +8696,7 @@ color: rgba(0, 0, 0, 0.75);
   color: #FFFFFF;
   }
   .font-inter-date-first{
-  font-family: 'Inter';
+  font-family:inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -8680,7 +8705,7 @@ color: rgba(0, 0, 0, 0.75);
   color: #FFFFFF;
   }
   .font-inter-date-second{
-  font-family: 'Inter';
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -8689,15 +8714,15 @@ color: rgba(0, 0, 0, 0.75);
   color: #FFFFFF;
   }
   .font-inter-event-p{
-  font-family: 'Inter';
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 30px;
   color: #FFFFFF;
   }
   .font-inter-time{
-  font-family: 'Inter';
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -8709,7 +8734,7 @@ color: rgba(0, 0, 0, 0.75);
   /* End of Event Styling  */
 
 .font-inter-hoem3-allt{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -8718,7 +8743,7 @@ text-transform: capitalize;
 color: rgba(0, 0, 0, 0.7);
 }
 .font-inter-home3-explo{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
@@ -8727,7 +8752,7 @@ text-transform: capitalize;
 color: #000000;
 }
 .font-inter-home3-24{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 60px;
@@ -8736,7 +8761,7 @@ text-transform: capitalize;
 color: #000000;
 }
 .font-inter-home3-hour{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -8747,7 +8772,7 @@ color: rgba(0, 0, 0, 0.7);
 .font-inter-home3-hap-txt{
 width: 586px;
 height: 90px;
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -8760,7 +8785,7 @@ color: rgba(0, 0, 0, 0.7);
 /* Start of Footer Styling  */
 
 .font-inter-foot{
-  font-family: 'Inter';
+  font-family:inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -8769,7 +8794,7 @@ color: rgba(0, 0, 0, 0.7);
   color: #FFFFFF;
   }
   .font-inter-foot-top{
-  font-family: 'Inter';
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -8778,7 +8803,7 @@ color: rgba(0, 0, 0, 0.7);
   color: #FDF9F9;
   }
   .font-inter-foot-last{
-  font-family: 'Inter';
+  font-family: inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;

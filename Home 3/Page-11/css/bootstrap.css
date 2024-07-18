@@ -1,13 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root,
+ @font-face {
+  font-family:inter;
+  src: url('/fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('/fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('/fonts/Inter/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('/fonts/Lora/Lora-Boldttf');
+}
+@font-face {
+  font-family:lora-medium;
+  src: url('/fonts/Lora/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('/fonts/Lora/Lora-Regular.ttf');
+}
+@font-face {
+  font-family:layla;
+  src: url('/fonts/Laila/Laila-Regular.ttf');
+}
+ :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -12056,7 +12082,7 @@ textarea.form-control-lg {
 }
 
 .font-laila-p{
-font-family: 'Laila';
+font-family:layla;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -12067,7 +12093,7 @@ padding: 21px 29px;
 
 
 .font-inter-nav{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -12077,7 +12103,7 @@ color: #CACACA;
 }
 .font-inter-nav-links{
 position: absolute;
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -12086,7 +12112,7 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-btn-apply{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -12095,7 +12121,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-hero-title{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 60px;
@@ -12104,7 +12130,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-hero-p{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -12115,7 +12141,7 @@ color: #FFFFFF;
 
 /* Start of Font of Section 2 */
 .font-inter-sec-2-title{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -12125,7 +12151,7 @@ color: #000000;
 }
 
 .font-inter-card-p{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -12135,7 +12161,7 @@ width: 235px;
 margin-top: 1rem !important;
 }
 .font-inter-sidebar-p{
-font-family: 'Inter';
+font-family:inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -12145,7 +12171,7 @@ color: #000000;
 margin-top: 9px;
 }
 .font-inter-card-h4{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -12162,7 +12188,7 @@ color: rgba(0, 0, 0, 0.5);
 
 /* Start of Sidebar Section  */
 .font-inter-side-event-p{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
@@ -12171,7 +12197,7 @@ color: rgba(0, 0, 0, 0.5);
 margin-bottom: 0px;
 }
 .font-inter-pop-event{
-font-family: 'Inter';
+font-family:inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
@@ -12183,7 +12209,7 @@ margin-left: -5px;
 }
 
 .font-inter-pop-ico-name{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -12194,7 +12220,7 @@ color: rgba(0, 0, 0, 0.5);
 
 
 .font-inter-foot{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -12203,7 +12229,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .font-inter-foot-top{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
@@ -12212,7 +12238,7 @@ text-transform: capitalize;
 color: #FDF9F9;
 }
 .font-inter-foot-last{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;

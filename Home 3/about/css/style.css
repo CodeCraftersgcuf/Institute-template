@@ -1,7 +1,28 @@
 /* section 1 */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-
+@font-face {
+  font-family:inter;
+  src: url('/fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('/fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('/fonts/Inter/static/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('/fonts/Lora/Lora-Bold.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('/fonts/Lora/static/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('/fonts/Lora/Lora-Regular.ttf');
+}
 *
 {
     margin: 0px;
@@ -213,7 +234,7 @@ border: 2px solid #3AC569;
 .event-text{
 width: 406px;
 height: 60px;
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 600;
 font-size: 25px;

@@ -4,8 +4,34 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
- @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"); 
+ @font-face {
+  font-family:inter;
+  src: url('/fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+  font-family:inter-bold;
+  src: url('/fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+  font-family:inter-medium;
+  src: url('/fonts/Inter/Inter-Medium.ttf');
+}
+@font-face {
+  font-family:lora-bold;
+  src: url('/fonts/Lora/Lora-Boldttf');
+}
+@font-face {
+  font-family:lora-medium;
+  src: url('/fonts/Lora/Lora-Medium.ttf');
+}
+@font-face {
+  font-family:lora;
+  src: url('/fonts/Lora/Lora-Regular.ttf');
+}
+@font-face {
+  font-family:layla;
+  src: url('/fonts/Laila/Laila-Regular.ttf');
+}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -8396,7 +8422,7 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 .font-inter-corse-nav{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -8405,7 +8431,7 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-corse-navex{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -8413,7 +8439,7 @@ line-height: 22px;
 color: #CACACA;
 }
 .font-inter-corse-navlinks{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8422,7 +8448,7 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-corse-nav-btn{
-font-family: 'Inter';
+font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -8431,7 +8457,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-corse-main{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 60px;
@@ -8440,7 +8466,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-corse-sub{
-font-family: 'Inter';
+font-family:inter-bold;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -8449,7 +8475,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .font-inter-search{
-  font-family: 'Inter';
+  font-family:inter;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -8458,7 +8484,7 @@ color: #FFFFFF;
   margin-bottom: 5px;
 }
 .font-laila-p{
-font-family: 'Laila';
+font-family:layla;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8468,7 +8494,7 @@ width: 208px;
 margin: 21px 29px;
 }
 .font-inter-blg-sea-p{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -8476,7 +8502,7 @@ line-height: 144%;
 color: #000000;
 }
 .font-inter-blg-cor-h{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
@@ -8485,7 +8511,7 @@ text-transform: uppercase;
 color: #000000;
 }
 .font-inter-blg-cor-p{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -8493,7 +8519,7 @@ line-height: 144%;
 color: rgba(0, 0, 0, 0.7);
 }
 .font-inter-blg-cor-pr{
-font-family: 'Inter';
+font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -8501,7 +8527,7 @@ line-height: 144%;
 color: #3AC569;
 }
 .font-inter-blg2-shr{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
@@ -8510,7 +8536,7 @@ text-transform: uppercase;
 color: #000000;
 }
 .font-inter-blg2-lor{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
@@ -8518,7 +8544,7 @@ line-height: 16px;
 color: rgba(0, 0, 0, 0.5);
 }
 .font-inter-blg2-card-h{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8528,7 +8554,7 @@ color: #000000;
 margin-bottom: 0px;
 }
 .font-inter-blg2-card-p{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
@@ -8537,7 +8563,7 @@ color: rgba(0, 0, 0, 0.5);
 width: 409px;
 }
 .font-inter-blg2-add-com{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8545,7 +8571,7 @@ line-height: 18px;
 color: rgba(0, 0, 0, 0.5);
 }
 .font-inter-blg2-post-h{
-font-family: 'Inter';
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -8553,7 +8579,7 @@ line-height: 24px;
 color: #000000;
 }
 .font-inter-blg2-post-p{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8561,7 +8587,7 @@ line-height: 18px;
 color: rgba(0, 0, 0, 0.8);
 }
 .font-inter-blg2-post-c{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -8570,7 +8596,7 @@ color: rgba(0, 0, 0, 0.5);
 margin-top: 6px;
 }
 .font-inter-post-p{
-font-family: 'Inter';
+font-family:inter;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -8578,7 +8604,7 @@ line-height: 144%;
 color: rgba(0, 0, 0, 0.5);
 }
 .font-inter-foot{
-  font-family: 'Inter';
+  font-family: inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -8587,7 +8613,7 @@ color: rgba(0, 0, 0, 0.5);
   color: #FFFFFF;
   }
   .font-inter-foot-top{
-  font-family: 'Inter';
+  font-family:inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -8596,7 +8622,7 @@ color: rgba(0, 0, 0, 0.5);
   color: #FDF9F9;
   }
   .font-inter-foot-last{
-  font-family: 'Inter';
+  font-family: inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
