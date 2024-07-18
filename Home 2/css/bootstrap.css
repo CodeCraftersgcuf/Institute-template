@@ -8380,7 +8380,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-color: #FFFFFF;
+color: var(--white-color);
+
 }
 .font-inter-nav-logo{
 font-family: inter-bold;
@@ -8389,7 +8390,7 @@ font-weight: 600;
 font-size: 50px;
 line-height: 61px;
 text-transform: uppercase;
-color: #3AC569;
+color: var(--green-color);
 }
 .font-inter-nav-links{
 font-family: inter-bold;
@@ -8398,7 +8399,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 
 .font-inter-nav-cal-us{
@@ -8407,7 +8408,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-nav-cal-no{
 font-family: inter-bold;
@@ -8416,7 +8417,7 @@ font-weight: 600;
 font-size: 15px;
 line-height: 18px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 /* End of Navbar Styling Font  */
 
@@ -8429,7 +8430,7 @@ font-weight: 700;
 font-size: 60px;
 line-height: 73px;
 text-transform: capitalize;
-color: #FFFFFF;
+color: var(--white-color);
 
 
 }
@@ -8440,7 +8441,7 @@ font-weight: 400;
 font-size: 15px;
 line-height: 18px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 
 .font-inter-hero-btn{
@@ -8450,7 +8451,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 
 /* End of Hero Section  */
@@ -8462,7 +8463,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-card-p{
 font-family: inter;
@@ -8470,7 +8471,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: rgba(0, 0, 0, 0.5);
+color: var(--light-black-color);
 }
 .font-inter-fea-card-p{
 font-family: inter;
@@ -8479,7 +8480,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 16px;
 text-transform: capitalize;
-color: rgba(0, 0, 0, 0.5);
+color: var(--light-black-color);
 margin-bottom: 0px;
 }
 .font-inter-goal-title{
@@ -8489,7 +8490,7 @@ font-weight: 600;
 font-size: 30px;
 line-height: 36px;
 text-transform: capitalize;
-color: #CACACA;
+color: var(--gray-color);
 padding-top: 77px;
 margin-bottom: 0.5rem;
 }
@@ -8501,7 +8502,7 @@ font-size: 60px;
 line-height: 73px;
 text-align: center;
 text-transform: capitalize;
-color: #3AC569;
+color: var(--green-color);
 }
 .font-inter-goal-per{
 font-family: inter-bold;
@@ -8511,7 +8512,7 @@ font-size: 80px;
 line-height: 97px;
 text-align: center;
 text-transform: capitalize;
-color: #FFFFFF;
+color: var(--white-color);
 margin-bottom: -1rem;
 }
 .font-inter-goal-sub{
@@ -8522,7 +8523,7 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 text-transform: capitalize;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-form-why{
 font-family: inter-bold;
@@ -8532,7 +8533,7 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-goal-p{
 font-family: inter;
@@ -8540,7 +8541,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-color: #FFFFFF;
+color: var(--white-color);
 width: 332px;
 }
 .font-inter-goal-sub-btn{
@@ -8550,7 +8551,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-goal-can-btn{
 font-family: 'Inter';
@@ -8559,7 +8560,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-lora-test-title{
 font-family: lora-bold;
@@ -8568,7 +8569,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-lora-test-card-title{
 font-family: lora-bold;
@@ -8577,7 +8578,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 26px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-test-card-subtitle{
 font-family: inter;
@@ -8586,7 +8587,7 @@ font-weight: 400;
 font-size: 15px;
 line-height: 18px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-test-card-det{
 font-family:inter;
@@ -8595,7 +8596,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 16px;
 text-transform: uppercase;
-color: rgba(0, 0, 0, 0.5);
+color: var(--light-black-color);
 }
 .font-inter-test-p{
 font-family: inter;
@@ -8604,7 +8605,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 
 .font-lora-latest-new-title{
@@ -8614,7 +8615,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 margin-bottom: 0px;
 }
 .font-inter-new-subtitle{
@@ -8624,7 +8625,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-news-card-title{
 font-family: inter-medium;
@@ -8633,7 +8634,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-news-card-p{
 font-family: inter;
@@ -8641,7 +8642,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 16px;
-color: rgba(0, 0, 0, 0.5);
+color: var(--light-black-color);
 margin-bottom: 0px;
 }
 .font-inter-new-card-admin{
@@ -8684,7 +8685,7 @@ font-weight: 400;
 font-size: 15px;
 line-height: 18px;
 text-transform: uppercase;
-color: #333333;
+color: var(--low-black-color);
 
 
 }
@@ -8695,7 +8696,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 26px;
 text-transform: capitalize;
-color: #000000;
+color: var(--black-color);
 }
 .font-lora-feature-course{
 font-family: lora-bold;
@@ -8704,7 +8705,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-lora-gallery{
 font-family: lora-bold;
@@ -8713,7 +8714,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-lora-gallery-p{
 font-family: inter;
@@ -8722,7 +8723,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-lora-news{
 font-family: lora-bold;
@@ -8731,7 +8732,8 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-lora-title{
 font-family: lora-bold;
@@ -8740,7 +8742,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 51px;
 text-transform: uppercase;
-color: #FFFDFD;
+color: var(--white-color);
 }
 .font-lora-green-title{
 font-family: lora-bold;
@@ -8749,7 +8751,8 @@ font-weight: 600;
 font-size: 35px;
 line-height: 45px;
 text-transform: uppercase;
-color: #3AC569;
+color: var(--green-color);
+
 }
 .font-inter-small-green{
 font-family: inter-bold;
@@ -8758,7 +8761,7 @@ font-weight: 600;
 font-size: 15px;
 line-height: 18px;
 text-transform: uppercase;
-color: #3AC569;
+color: var(--green-color);
 }
 .font-inter-p-small-light-dark{
 font-family: inter;
@@ -8767,7 +8770,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 16px;
 text-transform: uppercase;
-color: #333333;
+color: var(--low-black-color);
 }
 .font-inter-card{
 font-family: inter;
@@ -8775,7 +8778,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-card-read{
 font-family: inter;
@@ -8783,7 +8786,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-choose-btn{
 font-family: inter-bold;
@@ -8791,7 +8794,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 17px;
 line-height: 22px;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-faqs{
 font-family: inter-medium;
@@ -8799,21 +8802,21 @@ font-style: normal;
 font-weight: 500;
 font-size: 1.2rem;
 line-height: 144%;
-color: #333333;
+color: var(--low-black-color);
 width: 634px;
 height: 49px;
-background: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-minus{
   width: 634px;
   height: 49px;
-  background: #333333;
+  background: var(--low-black-color);
   font-family: inter-medium;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 144%;
-  color: #ffffff;
+  color: var(--black-color);
 }
 .font-inter-event{
 font-family: inter-bold;
@@ -8822,7 +8825,7 @@ font-weight: 700;
 font-size: 50px;
 line-height: 61px;
 text-transform: capitalize;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-date-first{
 font-family: inter-bold;
@@ -8831,7 +8834,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 48px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-date-second{
 font-family:inter-bold;
@@ -8840,7 +8843,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-event-p{
 font-family:inter-bold;
@@ -8848,7 +8851,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 30px;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-time{
 font-family:inter-bold;
@@ -8857,7 +8860,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 text-transform: capitalize;
-color: #CACACA;
+color: var(--gray-color);
 
 }
 .font-inter-new-card{
@@ -8867,7 +8870,7 @@ font-weight: 500;
 font-size: 22px;
 line-height: 27px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
 }
 .font-inter-news-card-p{
 font-family: inter;
@@ -8875,7 +8878,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: rgba(0, 0, 0, 0.5);
+color: var(--light-black-color);
 }
 
 .font-inter-foot{
@@ -8885,7 +8888,7 @@ color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: var(--white-color);
   }
   .font-inter-foot-top{
   font-family: inter-bold;
@@ -8894,7 +8897,7 @@ color: rgba(0, 0, 0, 0.5);
   font-size: 25px;
   line-height: 30px;
   text-transform: capitalize;
-  color: #FDF9F9;
+  color: var(--white-color);
   }
   .font-inter-foot-last{
   font-family: inter;
@@ -8903,7 +8906,7 @@ color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   line-height: 24px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: var(--white-color);
   }
 
 
@@ -8916,7 +8919,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-cor-nav-email{
 font-family: inter;
@@ -8924,7 +8927,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-cor-nav-link{
 font-family: inter-bold;
@@ -8933,7 +8936,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
-color: #3AC569;
+color: var(--green-color);
 }
 .font-inter-cor-nav-btn{
 font-family: inter-bold;
@@ -8942,7 +8945,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 .font-inter-cor-hero{
 font-family: inter-bold;
@@ -8951,7 +8954,8 @@ font-weight: 600;
 font-size: 60px;
 line-height: 73px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
+
 }
 .font-inter-cor-hero-sub{
 font-family: inter-bold;
@@ -8960,7 +8964,8 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
+
 }
 .font-inter-cor-learn-title{
 font-family: inter-medium;
@@ -8969,7 +8974,8 @@ font-weight: 500;
 font-size: 35px;
 line-height: 42px;
 text-transform: uppercase;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-learn-sub{
 font-family: inter;
@@ -8977,7 +8983,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-lor-title{
 font-family: inter-bold;
@@ -8985,7 +8992,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
-color: #FFFEFE;
+color: var(--white-color);
+
 }
 .font-inter-cor-lor-p{
 font-family: inter;
@@ -8993,7 +9001,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 18px;
-color: #FFFEFE;
+color: var(--white-color);
+
 }
 .font-inter-cor-ready{
 font-family: inter-bold;
@@ -9001,7 +9010,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 36px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-ready-sub{
 font-family: inter;
@@ -9009,7 +9019,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-ready-card-title{
 font-family: inter-medium;
@@ -9017,7 +9028,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-ready-card-p{
 font-family: inter;
@@ -9026,7 +9038,8 @@ font-weight: 400;
 font-size: 17px;
 line-height: 21px;
 text-align: center;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-ready-btn{
 font-family: inter-medium;
@@ -9034,7 +9047,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-color: #FFFFFF;
+color: var(--white-color);
+
 }
 .font-inter-cor-start-title{
 font-family: inter-bold;
@@ -9042,7 +9056,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 30px;
 line-height: 36px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-start-p{
 font-family: inter;
@@ -9050,7 +9065,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-color: #000000;
+color: var(--black-color);
+
 }
 .font-inter-cor-start-box{
 font-family: inter;
@@ -9058,7 +9074,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-color: #000000;
+color: var(--black-color);
 }
  /* End of Course Section  */
 

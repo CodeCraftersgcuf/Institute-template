@@ -25,11 +25,24 @@
   font-family:lora;
   src: url('../fonts/Lora/Lora-Regular.ttf');
 }
+
+:root{
+  --green-color: #3AC569;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --gray-color: #CACACA;
+  --low-black-color: #333333;
+  --light-black-color: rgba(0, 0, 0, 0.5);
+  --high-black: #00000080;
+  }
+
+
+
 .btnnm{
     padding: 10px 25px;
-    background-color: #3AC569;
+    background-color: var(--green-color);
     border-radius: 35px;
-    color: white;
+    color: var(--white-color);
     border: none;
     width: 178px;
     height: 56px;
@@ -47,9 +60,9 @@
     z-index: -1;
 }
 .bg-success-bg{
-    background-color: #3AC569;
+    background-color: var(--green-color);
     margin-left: 140px;
-    color: white;
+    color: var(--white-color);
 }
 .bulb{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cours-sec3-bg.png);
@@ -68,7 +81,7 @@ footer ul li {
 }
 footer ul li a,
 .sub-detail {
-  color: #fdf9f9b2;
+  color: var(--gray-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
@@ -76,7 +89,7 @@ footer ul li a,
 }
 .straight-line {
   height: 250px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
 }
 .line-foot {
   padding-left: 25px;
@@ -85,11 +98,11 @@ footer ul li a,
   line-height: 2rem;
   font-size: 18px;
   border-radius: 0;
-  background-color: white;
+  background-color: var(--white-color);
   padding-left: 18px;
 }
 .input::placeholder {
-  color: #00000080;
+  color: var(--high-black);
 }
 
 .bgf {
@@ -97,7 +110,7 @@ footer ul li a,
   height: 425px;
 }
 .text-ladu {
-  color: #fdf9f9b2;
+  color: var(--gray-color);
 }
 .btn-foot {
   border-radius: revert !important;
@@ -106,20 +119,20 @@ footer ul li a,
 .foot-btn-div {
   width: 65px;
   height: 47px;
-  background: #3ac569;
+  background: var(--green-color);
 }
 
 .foot-hor-line {
   width: 100%;
   height: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
 }
 /* inline css  */
 .tvg{
   font-size: 60px; font-weight: 600;padding-top: 150px;
 }
 .imk{
-  color: #3AC569;
+  color: var(--green-color);
 }
 .drv{
   margin-top: -30px;
@@ -182,7 +195,7 @@ footer ul li a,
   width: 600px;height: 175px;
 }
 .plxs{
-  background-color: #3AC569;margin-left: 44%;padding: 8px 35px;
+  background-color: var(--green-color);margin-left: 44%;padding: 8px 35px;
 }
 .lqun{
   height: 75px; width: 600px;
