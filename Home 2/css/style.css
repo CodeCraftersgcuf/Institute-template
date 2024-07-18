@@ -23,17 +23,31 @@
   src: url('../fonts/Lora/Lora-Regular.ttf');
 }
 
+
+:root{
+--green-color: #3AC569;
+--white-color: #FFFFFF;
+--black-color: #000000;
+--gray-color: #CACACA;
+--low-black-color: #333333;
+--light-black-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
 /*nav*/
 .main-first-sec{
     background-color: 
-    #3AC569;
+    var(--green-color);
     height: 46px;
 }
 .container-fluid p{
     padding-top: 4px;
 }
 .logo-sec-main{
-  background-color: #FFFFFF;
+  background-color: var(--white-color);
 }
 .logo{
     height: 114px;
@@ -57,7 +71,7 @@
     bottom: 8px;   
 }
 .text-succes{
-    color: #3AC569;
+    color: var(--green-color);
 }
 /* hero section */
 .zero{
@@ -73,14 +87,15 @@
    width: auto;
 }
 .btn{
-    background-color: #3AC569;
+    background-color: var(--green-color);
     border-radius: 28px;
+    
 }
 .video-btn{
     width: 178px;
     height: 56px;
     background-color: transparent;
-    border: 1px solid #3AC569;
+    border: 1px solid var(--green-color);
     border-radius: 28px;
     position: relative;
     top: 3px;
@@ -92,7 +107,7 @@
     height: 50px;
     width: 50px;
     border-radius: 100px;
-    background-color: #3AC569;
+    background-color: var(--green-color);
     position: relative;
     right: 22px;
     bottom: 15px;   
@@ -115,7 +130,7 @@
 .line {
 width: 34px;
 height: 0px;
-border: 2px solid #3AC569;
+border: 2px solid var(--green-color);
 transform: rotate(90deg);
 margin-top: 22px;
 }
@@ -125,7 +140,7 @@ margin-top: 22px;
   position: absolute;
   width: 8px;
   height: 8px;
-  background: #3ac569;
+  background: var(--green-color);
   right: -4px;
   top: -4px;
 }
@@ -133,7 +148,7 @@ margin-top: 22px;
   /* Rectangle 239 */
   width: 117px;
   height: 41px;
-  background: #3ac569;
+  background: var(--green-color);
   border-radius: revert;
   border: none;
 }
@@ -145,7 +160,7 @@ margin-top: 22px;
   position: absolute;
   width: 374px;
   height: 374px;
-  border: 2px dashed #ffffff;
+  border: 2px dashed var(--white-color);
   top: 38px;
   left: 76px;
 }
@@ -212,17 +227,17 @@ height: 0px;
   box-sizing: border-box;
   width: 143px;
   height: 143px;
-  border: 2px solid #3ac569;
+  border: 2px solid var(--green-color);
 }
 .event-text {
-  width: 406px;
+  width: 411px;
   height: 60px;
   font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .event-time-loc {
   width: 401px;
@@ -230,13 +245,13 @@ height: 0px;
 .event-line {
   width: 467px;
   height: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
 }
 
 .stright-line {
   width: 541px;
   height: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
   transform: rotate(90deg);
   position: absolute;
   top: 460px;
@@ -257,7 +272,7 @@ height: 0px;
 .blog-line {
   width: 342px;
   height: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
   margin-top: 34px;
 }
 /* End of Eight Section  */
@@ -337,7 +352,7 @@ footer ul li a,
 }
 .straight-line {
   height: 250px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
 }
 .line-foot {
   padding-left: 25px;
@@ -346,7 +361,7 @@ footer ul li a,
   line-height: 2rem;
   font-size: 18px;
   border-radius: 0;
-  background-color: white;
+  background-color: var(--white-color);
   padding-left: 18px;
 }
 .input::placeholder {
@@ -367,13 +382,13 @@ footer ul li a,
 .foot-btn-div {
   width: 65px;
   height: 47px;
-  background: #3ac569;
+  background: var(--green-color);
 }
 
 .foot-hor-line {
   width: 100%;
   height: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--white-color);
 }
 /* End of Footer Section  */
 
@@ -446,5 +461,9 @@ footer ul li a,
 .edc{
   height: 209px; width: 356px;
 }
-
-
+.bhyt{
+  width: 293px; height: 415px;
+}
+.alkg{
+  height: 213px; width: 266px;
+}
