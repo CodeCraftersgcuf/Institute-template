@@ -5,13 +5,6 @@ p{
   font-size: 20px;
   font-weight: 400;
 }
-/* .row{
-  width: 100% !important;
-} */
-/* .content{
-  width: 400px;
-  height: 500px !important;
-} */
 .news {
   /* border-radius: 50%; */
   position: relative;
@@ -30,16 +23,11 @@ p{
   width: 421px;
   height: 540px;
 }
-.row-1 {
-  /* --bs-gutter-x: -49.5rem; */
-  --bs-gutter-y: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(4 * var(--bs-gutter-y));
-  margin-right: calc(-5.5 * var(--bs-gutter-x));
-  margin-left: calc(-7.5 * var(--bs-gutter-x));
-  justify-content: space-between;
+.ppp{
+  max-width: 90%;
 }
+
+
 .dt{
   position: absolute;
   top: 5px;
@@ -52,7 +40,6 @@ p{
   position: absolute;
   bottom: 0;
   left: 9px;
-  /* right: 5px; */
   background: #1D1D1DB2;
 }
 .con{
@@ -62,8 +49,6 @@ p{
 .ml{
   margin-left: 1000px;
 }
-
-
 
 /* hello */
 *
@@ -136,6 +121,7 @@ ul{
 .form-group {
   position: relative;
   margin-bottom: 30px;
+ 
 }
 .form-group img {
   position: absolute;
@@ -147,15 +133,17 @@ ul{
   opacity: 0.6;
 }
 .form-control {
-  height: 40px;
+  height: 50px;
+  border-radius: 0px;
   padding-left: 60px; /* Make space for the icon */
 }
 .subscribe-form .btn-get {
   background-color: #3AC569;
   border-color: #3AC569;
-  height: 40px;
+  height: 50px;
   font-size:15px;
   color: white;
+  border-radius: 0px;
   width: 100%;
   font-weight:bolder;
 }
