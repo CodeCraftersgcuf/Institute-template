@@ -8,7 +8,7 @@
   src: url('../fonts/Inter/Inter-Bold.ttf');
 }
 @font-face {
-  font-family:inter-bold;
+  font-family:inter-medium;
   src: url('../fonts/Inter/static/Inter-Medium.ttf');
 }
 @font-face {
@@ -243,7 +243,7 @@ ul {
 }
 .m-top
 {
-  margin-top: 39px
+  margin-top: 33px
 }
 /* End of Hero Section  */
 
@@ -450,7 +450,7 @@ ul {
   left: 105px;
 }
 .heading1 {
-  font-family: Inter;
+  font-family: inter-bold;
   font-size: 40px;
   font-weight: 600;
   line-height: 48.41px;
@@ -459,7 +459,7 @@ ul {
   margin-bottom: 0;
 }
 .content1 {
-  font-family: Inter;
+  font-family: inter;
   font-size: 15px;
   font-weight: 400;
   line-height: 18.15px;
@@ -487,15 +487,27 @@ ul {
   height: 55px;
   background: #3ac569;
   border: none;
-  color: white;
+  
+}
+.teen
+{
+font-family: inter-medium;
+font-size: 20px;
+text-decoration: none;
+color: white;
+font-weight: 600;
+line-height: 24.2px;
+text-align: left;
+
 }
 /* End of Sixth Section  */
 
 /* Start of Seventh Section  */
 .seven-sec {
-  background-image: url("../assets/sec-6-bg.png");
+  background-image: url(../assets/sec-6-bg.png);
   height: 476px;
   width: 100%;
+  margin-top: -48px;
   background-size: cover;
 }
 .line-testi {
@@ -513,6 +525,11 @@ ul {
 }
 .sev-sec {
   width: 502px;
+  margin-top: 55px;
+}
+.seven-faqs
+{
+  margin-top: 55px;
 }
 .user-rating {
   margin-left: 134px;
@@ -629,7 +646,7 @@ ul {
   width: 342px;
   height: 0px;
   border: 1px solid #ffffff;
-  margin-top: 34px;
+  margin-top: 33px;
 }
 /* End of Eight Section  */
 
