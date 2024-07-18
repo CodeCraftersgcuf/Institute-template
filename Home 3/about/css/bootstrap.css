@@ -4,6 +4,9 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -8371,7 +8374,183 @@ textarea.form-control-lg {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
+.font-inter-ab-navbar {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CACACA;
+}
+.font-inter-ab-ex{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #CACACA;
+}
+.font-inter-ab-navlinks{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CACACA;
 
+}
+.font-inter-ab-nav-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-ab-main{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 73px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-ab-main-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-ab-ins{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 42px;
+color: #161616;
+}
+.font-inter-ab-ins-lor{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.8);
+}
+.font-inter-ab-ins-tick{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.8);
+}
+.font-inter-ab-why{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+color: #161616;
+}
+.font-inter-ab-why-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-ab-wh-cd-h{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #161616;
+}
+.font-inter-ab-wh-cd-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-lora-ab-fac{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 64px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.font-inter-ab-fac-h{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+.font-inter-ab-fac-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+text-transform: capitalize;
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Start of Footer Styling  */
+
+.font-inter-foot{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+  .font-inter-foot-top{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FDF9F9;
+  }
+  .font-inter-foot-last{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+
+
+/* End of Footer Stylin  */
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -8548,7 +8727,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+.text-green{
+  color: #3AC569;
 
+}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;

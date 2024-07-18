@@ -4,6 +4,8 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"); 
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -8393,7 +8395,245 @@ textarea.form-control-lg {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
+.font-inter-corse-nav{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CACACA;
+}
+.font-inter-corse-navex{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #CACACA;
+}
+.font-inter-corse-navlinks{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CACACA;
+}
+.font-inter-corse-nav-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-corse-main{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 73px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-corse-sub{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.font-inter-corse-lea{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+text-transform: uppercase;
+color: #000000;
+}
+.font-inter-corse-lea-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+.font-inter-corse-search{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-corse-sea-place{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-corse-sea-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.font-inter-corse-quic{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-corse-news{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-corse-news-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.8);
+}
+.font-inter-corse-card-h{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+.font-inter-corse-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.5);
+}
+.font-inter-corse-card-pr{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-right: 14px;
+}
+.font-inter-corse-card-de{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.8);
+}  
+.font-inter-corse-lor-h{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFEFE;
+}
+.font-inter-corse-lor-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #FFFEFE;
+}
+.font-inter-corse-cls{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+.font-inter-corse-cls-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-corse-cls-card-h{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.font-inter-corse-cls-card-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.font-inter-corse-cls-btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
 
+
+
+.font-inter-foot{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+  .font-inter-foot-top{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FDF9F9;
+  }
+  .font-inter-foot-last{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  }
+  
 .fs-1 {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
@@ -8570,7 +8810,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+.text-green{
+  color: #3AC569;
 
+}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;

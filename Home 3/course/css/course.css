@@ -98,6 +98,7 @@
   margin-top: 50px;
   
 }
+
 /* Start of Footer Section  */
 
 footer ul li {
@@ -130,10 +131,8 @@ footer ul li a,
 }
 
 .bgf {
-  background-image: url("../assets-12/footer.png");
+  background-image: url("/assests/footer.png");
   height: 425px;
-  background-color: 
-  #000647;
 }
 .text-ladu {
   color: #fdf9f9b2;
