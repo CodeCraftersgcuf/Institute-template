@@ -8360,7 +8360,7 @@ textarea.form-control-lg {
   gap: 5rem !important;
 }
 .gap-5 {
-  gap: 6rem !important;
+  gap: 2.5rem !important;
 }
 /* Navbar Styling Font  */
 .font-inter-nav-title{
@@ -8570,7 +8570,7 @@ color: #FFFFFF;
 font-family: inter-medium;
 font-style: normal;
 font-weight: 500;
-font-size: 1.2rem;
+font-size: 20px;
 line-height: 144%;
 color: #333333;
 width: 634px;
@@ -8578,7 +8578,7 @@ height: 49px;
 background: #FFFFFF;
 }
 .font-inter-minus{
-  width: 634px;
+  width: 583px;
   height: 49px;
   background: #333333;
   font-family:inter-medium;
