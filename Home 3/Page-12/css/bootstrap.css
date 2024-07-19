@@ -12086,7 +12086,24 @@ line-height: 144%;
 color: #000000;
 padding: 21px 29px;
 }
-
+.font-inter-corse-navlinks{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #CACACA;
+  }
+  .font-inter-corse-nav-btn{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
 
 .font-inter-nav{
 font-family:inter;
