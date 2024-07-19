@@ -8421,6 +8421,24 @@ textarea.form-control-lg {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
+.font-inter-corse-navlinks{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #CACACA;
+  }
+  .font-inter-corse-nav-btn{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
 .font-inter-corse-nav{
 font-family:inter;
 font-style: normal;

@@ -12102,7 +12102,6 @@ text-transform: uppercase;
 color: #CACACA;
 }
 .font-inter-nav-links{
-position: absolute;
 font-family: inter-bold;
 font-style: normal;
 font-weight: 600;
@@ -12110,6 +12109,24 @@ font-size: 18px;
 line-height: 22px;
 text-transform: uppercase;
 color: #CACACA;
+}
+.font-inter-corse-navlinks{
+font-family: inter-bold;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #CACACA;
+}
+.font-inter-corse-nav-btn{
+font-family: inter-bold;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 .font-inter-btn-apply{
 font-family:inter-bold;

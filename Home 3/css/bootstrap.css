@@ -8426,6 +8426,24 @@ textarea.form-control-lg {
 }
 /* Start Styling Font  */
 
+.font-inter-corse-navlinks{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #CACACA;
+  }
+  .font-inter-corse-nav-btn{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
 .font-inter-home3-nav{
 font-family:inter;
 font-style: normal;
