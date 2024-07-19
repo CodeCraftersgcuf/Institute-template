@@ -51,7 +51,7 @@
     height: 98px;
 }
 .cours{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/corce-bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/corce-bg.png);
     height: 546px;
     width: 100%;
     background-size: cover;
@@ -195,7 +195,8 @@ footer ul li a,
   width: 600px;height: 175px;
 }
 .plxs{
-  background-color: var(--green-color);margin-left: 44%;padding: 8px 35px;
+  background-color: var(--green-color);margin-left: 44%;padding: 21px 60px;
+  border: none;
 }
 .lqun{
   height: 75px; width: 600px;

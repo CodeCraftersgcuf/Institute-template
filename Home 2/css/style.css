@@ -75,7 +75,7 @@
 }
 /* hero section */
 .zero{
-    background-image: linear-gradient(rgba(18, 18, 18, 0.7), rgba(7, 7, 7, 0.7)), url(../img/hero-1.png);
+    background-image: linear-gradient(rgba(18, 18, 18, 0.6), rgba(7, 7, 7, 0.6)), url(../img/hero-1.png);
     background-size: cover;
     height: 923px;
     width: 100%;

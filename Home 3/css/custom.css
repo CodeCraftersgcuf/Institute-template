@@ -1,32 +1,32 @@
 @font-face {
-  font-family:inter;
-  src: url('/fonts/Inter/Inter-Regular.ttf');
+  font-family: inter;
+  src: url("/fonts/Inter/Inter-Regular.ttf");
 }
 @font-face {
-  font-family:inter-bold;
-  src: url('/fonts/Inter/Inter-Bold.ttf');
+  font-family: inter-bold;
+  src: url("/fonts/Inter/Inter-Bold.ttf");
 }
 @font-face {
-  font-family:inter-medium;
-  src: url('/fonts/Inter/Inter-Medium.ttf');
+  font-family: inter-medium;
+  src: url("/fonts/Inter/Inter-Medium.ttf");
 }
 @font-face {
-  font-family:lora-bold;
-  src: url('/fonts/Lora/Lora-Boldttf');
+  font-family: lora-bold;
+  src: url("/fonts/Lora/Lora-Boldttf");
 }
 @font-face {
-  font-family:lora-medium;
-  src: url('/fonts/Lora/Lora-Medium.ttf');
+  font-family: lora-medium;
+  src: url("/fonts/Lora/Lora-Medium.ttf");
 }
 @font-face {
-  font-family:lora;
-  src: url('/fonts/Lora/Lora-Regular.ttf');
+  font-family: lora;
+  src: url("/fonts/Lora/Lora-Regular.ttf");
 }
 @font-face {
-  font-family:layla;
-  src: url('/fonts/Laila/Laila-Regular.ttf');
+  font-family: layla;
+  src: url("/fonts/Laila/Laila-Regular.ttf");
 }
-p{
+p {
   font-size: 20px;
   font-weight: 400;
 }
@@ -43,110 +43,105 @@ p{
   top: 80%;
   left: 30px;
 }
-.ca{
+.ca {
   background-image: url(/Assests/sec2-1.png);
   width: 421px;
   height: 540px;
 }
-.ppp{
+.ppp {
   max-width: 90%;
 }
 
-
-.dt{
+.dt {
   position: absolute;
   top: 5px;
   left: 5px;
 }
-.content p{
+.content p {
   margin-bottom: 8px;
 }
-.bg-lightgrey{
+.bg-lightgrey {
   position: absolute;
   bottom: 0;
   left: 9px;
-  background: #1D1D1DB2;
+  background: #1d1d1db2;
 }
-.con{
-  --bs-gutter-x:1rem;
-
+.con {
+  --bs-gutter-x: 1rem;
 }
-.ml{
+.ml {
   margin-left: 1000px;
 }
 
 /* hello */
-*
-{
+* {
   margin: 0px;
   padding: 0px;
 }
-.hero-img
-{
-  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/hero-img.png');
+.hero-img {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url("../Assests/hero-img.png");
   height: 969px;
   background-position: center;
   width: 100%;
-
 }
 .header-3 {
-  --bs-gutter-x:0px;
+  --bs-gutter-x: 0px;
 }
-ul{
+ul {
   list-style: none;
 }
-.f-size
-{
-  font-size:80px;
+.f-size {
+  font-size: 80px;
 }
-.f-size1
-{
-  font-size:18px;
+.f-size1 {
+  font-size: 18px;
 }
-.play
-{
-  height:60px;
+.play {
+  height: 60px;
   width: 60px;
   display: flex;
   border: 0;
   border-radius: 50px;
   align-items: center;
   justify-content: center;
-  background-color:#3AC569 ;
+  background-color: #3ac569;
 }
-.play-size
-{
-  height:30px;
-  width:30px;
-
+.play-size {
+  height: 30px;
+  width: 30px;
 }
-.bg-purple
-{
-  background-color:  #000647;
+.bg-purple {
+  background-color: #000647;
   height: 710px;
 }
-.sec4-bg
-{
-    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/Rectangle 10.png');
-    height: 1226px;
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    margin-top:80px;
-    width: 100%;
-
+.sec4-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url("../Assests/Rectangle 10.png");
+  height: 1226px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 80px;
+  width: 100%;
 }
 .subscribe-section {
   display: flex;
-
 }
 .subscribe-form {
-  padding:0px 15px;
+  padding: 0px 15px;
   width: 100%;
 }
 .form-group {
   position: relative;
   margin-bottom: 30px;
- 
 }
 .form-group img {
   position: absolute;
@@ -163,24 +158,24 @@ ul{
   padding-left: 60px; /* Make space for the icon */
 }
 .subscribe-form .btn-get {
-  background-color: #3AC569;
-  border-color: #3AC569;
+  background-color: #3ac569;
+  border-color: #3ac569;
   height: 50px;
-  font-size:15px;
+  font-size: 15px;
   color: white;
   border-radius: 0px;
   width: 100%;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 .subscribe-form .btn-get:hover {
   background-color: #0056b3;
   border-color: #004085;
 }
 /* Start of Footer Section  */
-ul{
+ul {
   list-style: none;
 }
-ul li a img{
+ul li a img {
   width: 8px;
   height: 8px;
 }
@@ -236,56 +231,50 @@ footer ul li a,
   border: 1px solid #ffffff;
 }
 /* End of Footer Section  */
-.text-ladu{
-  color: #FDF9F9B2;
+.text-ladu {
+  color: #fdf9f9b2;
 }
-.img-container
-{
+.img-container {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.large-img{
-  width:99%;
+.large-img {
+  width: 99%;
   height: 410px;
 }
-.medium-img{
-  width:100%;
+.medium-img {
+  width: 100%;
   height: 410px;
 }
-.small-img
-{
-  width:32%;
+.small-img {
+  width: 32%;
   height: 200px;
 }
-.small-img2
-{
-  width:71%;
+.small-img2 {
+  width: 71%;
   height: 197px;
 }
-.small-img1
-{
-  width:27%;
+.small-img1 {
+  width: 27%;
   height: 200px;
 }
-.small-img3
-{
-  width:27%;
+.small-img3 {
+  width: 27%;
   height: 200px;
 }
-.small-img4
-{
-  width:26.5%;
+.small-img4 {
+  width: 26.5%;
   height: 200px;
 }
 
 .sec-8 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.63),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
     ),
     url("/Assests/sec6-bg.png");
-  height: 885px;
+  height: 785px;
   width: 100%;
   background-size: cover;
 }
@@ -308,7 +297,7 @@ footer ul li a,
 .event-text {
   width: 406px;
   height: 60px;
-  font-family:inter-bold;
+  font-family: inter-bold;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -354,29 +343,29 @@ footer ul li a,
 
 /* section 8 */
 
-.bg8{
-
-  background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(/Assests/sec8-bg.png);
+.bg8 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.8),
+      rgba(20, 20, 20, 0.8)
+    ),
+    url(/Assests/sec8-bg.png);
   height: 145px;
   /* background: #040404CC; */
 }
-.tes-img1
-{
+.tes-img1 {
   position: absolute;
   left: 49%;
   z-index: 2;
   margin-bottom: 50px;
 }
-.tes-img2
-{
+.tes-img2 {
   position: absolute;
   left: 45%;
   margin-bottom: 50px;
 }
-.tes-img3
-{
+.tes-img3 {
   position: absolute;
   left: 53%;
   margin-bottom: 50px;
-
 }
