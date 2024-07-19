@@ -8517,7 +8517,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-color: rgba(0, 0, 0, 0.8);
+color: #000000;
+}
+.font-inter-con-cam-p3{
+font-family: inter;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+color: #FDF9F9;
 }
 
 .font-inter-con-main{
