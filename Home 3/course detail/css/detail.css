@@ -41,7 +41,14 @@
 
 }
 .tagg{
-  width: 125px;
+  width: 120px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  padding: 6px 19px;
+  text-align: left;
+
 }
 .imgg{
     position: absolute;

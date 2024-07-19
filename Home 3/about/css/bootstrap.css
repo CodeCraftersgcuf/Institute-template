@@ -3113,8 +3113,8 @@ textarea.form-control-lg {
 
 .btn-success {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #198754;
-  --bs-btn-border-color: #198754;
+  --bs-btn-bg: #3AC569;
+  --bs-btn-border-color: #3AC569;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #157347;
   --bs-btn-hover-border-color: #146c43;
@@ -8395,6 +8395,24 @@ textarea.form-control-lg {
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
+.font-inter-corse-navlinks{
+  font-family: inter-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #CACACA;
+  }
+  .font-inter-corse-nav-btn{
+    font-family: inter-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
 .font-inter-ab-navbar {
 font-family: inter;
 font-style: normal;
