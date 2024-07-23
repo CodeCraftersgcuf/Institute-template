@@ -1,35 +1,36 @@
 @font-face {
   font-family:inter;
-  src: url('/fonts/Inter/Inter-Regular.ttf');
+  src: url('../../fonts/Inter/Inter-Regular.ttf');
 }
 @font-face {
   font-family:inter-bold;
-  src: url('/fonts/Inter/Inter-Bold.ttf');
+  src: url('../../fonts/Inter/Inter-Bold.ttf');
 }
 @font-face {
   font-family:inter-medium;
-  src: url('/fonts/Inter/Inter-Medium.ttf');
+  src: url('../../fonts/Inter/Inter-Medium.ttf');
 }
 @font-face {
   font-family:lora-bold;
-  src: url('/fonts/Lora/Lora-Boldttf');
+  src: url('../../fonts/Lora/Lora-Boldttf');
 }
 @font-face {
   font-family:lora-medium;
-  src: url('/fonts/Lora/Lora-Medium.ttf');
+  src: url('../../fonts/Lora/Lora-Medium.ttf');
 }
 @font-face {
   font-family:lora;
-  src: url('/fonts/Lora/Lora-Regular.ttf');
+  src: url('../../fonts/Lora/Lora-Regular.ttf');
 }
 @font-face {
   font-family:layla;
-  src: url('/fonts/Laila/Laila-Regular.ttf');
+  src: url('../../fonts/Laila/Laila-Regular.ttf');
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .hero-img {
@@ -193,4 +194,28 @@ footer ul li a,
   height: 0px;
   border: 1px solid #ffffff;
 }
+.bgfill {
+  overflow-y: h!important; 
+}
 /* End of Footer Section  */
+@media (max-width: 1400px) {
+  .custom-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margintop {
+    margin-top: 20px !important;
+  }
+  .displayNone1400 {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .displayNone {
+    display: none;
+  }
+}

@@ -24,7 +24,7 @@
     top: -15px;
 }
 .bkl{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('/contact/assests-contact/hero-bg.png');
+    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../../contact/assests-contact/hero-bg.png');
     height: 546px;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,6 +36,8 @@
 .bu{
     background-color: #3AC569;
     border-radius: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .butt{
     color: #3AC569;
@@ -112,7 +114,7 @@ footer ul li {
   
   .bgf {
     background-image: url("../assets-12/footer.png");
-    height: 425px;
+    /* height: 425px; */
     background-color: 
     #000647;
   }
@@ -135,3 +137,26 @@ footer ul li {
     border: 1px solid #ffffff;
   }
   /* End of Footer Section  */
+
+  @media (max-width: 1400px) {
+    .custom-display {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .flex-wrap {
+      flex-wrap: wrap;
+    }
+    .margintop {
+      margin-top: 20px !important;
+    }
+    .displayNone1400 {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .displayNone {
+      display: none;
+    }
+  }
+  

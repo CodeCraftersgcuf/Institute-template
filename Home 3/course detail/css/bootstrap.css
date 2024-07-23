@@ -6,31 +6,31 @@
  */
  @font-face {
   font-family:inter;
-  src: url('/fonts/Inter/Inter-Regular.ttf');
+  src: url('../../fonts/Inter/Inter-Regular.ttf');
 }
 @font-face {
   font-family:inter-bold;
-  src: url('/fonts/Inter/Inter-Bold.ttf');
+  src: url('../../fonts/Inter/Inter-Bold.ttf');
 }
 @font-face {
   font-family:inter-medium;
-  src: url('/fonts/Inter/Inter-Medium.ttf');
+  src: url('../../fonts/Inter/Inter-Medium.ttf');
 }
 @font-face {
   font-family:lora-bold;
-  src: url('/fonts/Lora/Lora-Boldttf');
+  src: url('../../fonts/Lora/Lora-Boldttf');
 }
 @font-face {
   font-family:lora-medium;
-  src: url('/fonts/Lora/Lora-Medium.ttf');
+  src: url('../../fonts/Lora/Lora-Medium.ttf');
 }
 @font-face {
   font-family:lora;
-  src: url('/fonts/Lora/Lora-Regular.ttf');
+  src: url('../../fonts/Lora/Lora-Regular.ttf');
 }
 @font-face {
   font-family:layla;
-  src: url('/fonts/Laila/Laila-Regular.ttf');
+  src: url('../../fonts/Laila/Laila-Regular.ttf');
 }
 :root,
 [data-bs-theme=light] {
@@ -8131,7 +8131,9 @@ textarea.form-control-lg {
 .mb-auto {
   margin-bottom: auto !important;
 }
-
+.msl-25{
+  margin-left: -25px !important;
+}
 .ms-0 {
   margin-left: 0 !important;
 }

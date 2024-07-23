@@ -90,13 +90,13 @@
 }
 .sec3
 {
-  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../assests/Rectangle\ 110.png');
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url('../assests/Rectangle\ 110.png');
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height:305px;
+  /* height:305px; */
   margin-top: 50px;
-  
+  padding-bottom: 50px;
 }
 
 /* Start of Footer Section  */
@@ -131,8 +131,8 @@ footer ul li a,
 }
 
 .bgf {
-  background-image: url("/assests/footer.png");
-  height: 425px;
+  background-image: url("../assests/footer.png");
+  /* height: 425px; */
 }
 .text-ladu {
   color: #fdf9f9b2;
@@ -140,6 +140,9 @@ footer ul li a,
 .btn-foot {
   border-radius: revert !important;
   border: none;
+}
+.btn-foot:hover{
+  background-color: #3AC569;
 }
 .foot-btn-div {
   width: 65px;
@@ -153,3 +156,25 @@ footer ul li a,
   border: 1px solid #ffffff;
 }
 /* End of Footer Section  */
+
+@media (max-width: 1400px) {
+  .custom-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margintop {
+    margin-top: 20px !important;
+  }
+  .displayNone1400 {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .displayNone {
+    display: none;
+  }
+}

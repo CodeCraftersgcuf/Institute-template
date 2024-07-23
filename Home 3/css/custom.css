@@ -1,30 +1,30 @@
 @font-face {
   font-family: inter;
-  src: url("/fonts/Inter/Inter-Regular.ttf");
+  src: url("../fonts/Inter/Inter-Regular.ttf");
 }
 @font-face {
   font-family: inter-bold;
-  src: url("/fonts/Inter/Inter-Bold.ttf");
+  src: url("../fonts/Inter/Inter-Bold.ttf");
 }
 @font-face {
   font-family: inter-medium;
-  src: url("/fonts/Inter/Inter-Medium.ttf");
+  src: url("../fonts/Inter/Inter-Medium.ttf");
 }
 @font-face {
   font-family: lora-bold;
-  src: url("/fonts/Lora/Lora-Boldttf");
+  src: url("../fonts/Lora/Lora-Boldttf");
 }
 @font-face {
   font-family: lora-medium;
-  src: url("/fonts/Lora/Lora-Medium.ttf");
+  src: url("../fonts/Lora/Lora-Medium.ttf");
 }
 @font-face {
   font-family: lora;
-  src: url("/fonts/Lora/Lora-Regular.ttf");
+  src: url("../fonts/Lora/Lora-Regular.ttf");
 }
 @font-face {
   font-family: layla;
-  src: url("/fonts/Laila/Laila-Regular.ttf");
+  src: url("../fonts/Laila/Laila-Regular.ttf");
 }
 p {
   font-size: 20px;
@@ -44,7 +44,7 @@ p {
   left: 30px;
 }
 .ca {
-  background-image: url(/Assests/sec2-1.png);
+  background-image: url(../Assests/sec2-1.png);
   width: 421px;
   height: 540px;
 }
@@ -117,7 +117,8 @@ ul {
 }
 .bg-purple {
   background-color: #000647;
-  height: 710px;
+  /* height: 710px; */
+  padding-bottom: 50px;
 }
 .sec4-bg {
   background-image: linear-gradient(
@@ -126,7 +127,7 @@ ul {
       rgba(20, 20, 20, 0.8)
     ),
     url("../Assests/Rectangle 10.png");
-  height: 1226px;
+  /* height: 1226px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 80px;
@@ -209,8 +210,8 @@ footer ul li a,
 }
 
 .bgf {
-  background-image: url("/Assests/footer.png");
-  height: 425px;
+  background-image: url("../Assests/footer.png");
+  /* height: 425px; */
 }
 .text-ladu {
   color: #fdf9f9b2;
@@ -223,6 +224,9 @@ footer ul li a,
   width: 65px;
   height: 47px;
   background: #3ac569;
+}
+.btn-foot {
+  background-color: #3ac569;
 }
 
 .foot-hor-line {
@@ -266,6 +270,7 @@ footer ul li a,
   width: 26.5%;
   height: 200px;
 }
+/* Start of Eight Section  */
 
 .sec-8 {
   background-image: linear-gradient(
@@ -273,10 +278,12 @@ footer ul li a,
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url("/Assests/sec6-bg.png");
-  height: 785px;
+    url("../Assests/sec6-bg.png");
+  /* height: 784px; */
   width: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .sec-8-contain {
   position: relative;
@@ -287,7 +294,15 @@ footer ul li a,
   margin-top: 95px !important;
   /* margin-left: 50px; */
 }
-
+.m-top {
+  margin-top: 33px;
+}
+.mt-4-5 {
+  margin-top: 2.4rem !important;
+}
+.mt-3-4 {
+  margin-top: 1.3rem !important;
+}
 .event-date {
   box-sizing: border-box;
   width: 143px;
@@ -338,10 +353,9 @@ footer ul li a,
   width: 342px;
   height: 0px;
   border: 1px solid #ffffff;
-  margin-top: 34px;
+  margin-top: 33px;
 }
-
-/* section 8 */
+/* End of Eight Section  */
 
 .bg8 {
   background-image: linear-gradient(
@@ -349,8 +363,8 @@ footer ul li a,
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url(/Assests/sec8-bg.png);
-  height: 145px;
+    url(../Assests/sec8-bg.png);
+  /* height: 145px; */
   /* background: #040404CC; */
 }
 .tes-img1 {
@@ -368,4 +382,57 @@ footer ul li a,
   position: absolute;
   left: 53%;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1400px) {
+  .custom-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margintop {
+    margin-top: 20px !important;
+  }
+  .displayNone1400 {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .displayNone {
+    display: none;
+  }
+}.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .text-green {
+  color: #00cc66; /* Adjust as per your design */
 }

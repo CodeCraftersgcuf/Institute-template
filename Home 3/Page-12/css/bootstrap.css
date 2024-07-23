@@ -8,31 +8,31 @@
  */
  @font-face {
   font-family:inter;
-  src: url('/fonts/Inter/Inter-Regular.ttf');
+  src: url('../../fonts/Inter/Inter-Regular.ttf');
 }
 @font-face {
   font-family:inter-bold;
-  src: url('/fonts/Inter/Inter-Bold.ttf');
+  src: url('../../fonts/Inter/Inter-Bold.ttf');
 }
 @font-face {
   font-family:inter-medium;
-  src: url('/fonts/Inter/Inter-Medium.ttf');
+  src: url('../../fonts/Inter/Inter-Medium.ttf');
 }
 @font-face {
   font-family:lora-bold;
-  src: url('/fonts/Lora/Lora-Boldttf');
+  src: url('../../fonts/Lora/Lora-Boldttf');
 }
 @font-face {
   font-family:lora-medium;
-  src: url('/fonts/Lora/Lora-Medium.ttf');
+  src: url('../../fonts/Lora/Lora-Medium.ttf');
 }
 @font-face {
   font-family:lora;
-  src: url('/fonts/Lora/Lora-Regular.ttf');
+  src: url('../../fonts/Lora/Lora-Regular.ttf');
 }
 @font-face {
   font-family:layla;
-  src: url('/fonts/Laila/Laila-Regular.ttf');
+  src: url('../../fonts/Laila/Laila-Regular.ttf');
 }
  :root,
 [data-bs-theme=light] {
@@ -12188,8 +12188,8 @@ color: rgba(0, 0, 0, 0.5);
 }
 
 .font-inter-rand-p{
-width: 905px;
-height: 247px;
+max-width: 915px;
+/* height: 247px; */
 font-family:inter;
 font-style: normal;
 font-weight: 400;

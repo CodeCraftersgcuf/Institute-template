@@ -1,27 +1,27 @@
 /* section 1 */
 @font-face {
   font-family:inter;
-  src: url('/fonts/Inter/Inter-Regular.ttf');
+  src: url('../../fonts/Inter/Inter-Regular.ttf');
 }
 @font-face {
   font-family:inter-bold;
-  src: url('/fonts/Inter/Inter-Bold.ttf');
+  src: url('../../fonts/Inter/Inter-Bold.ttf');
 }
 @font-face {
   font-family:inter-medium;
-  src: url('/fonts/Inter/static/Inter-Medium.ttf');
+  src: url('../../fonts/Inter/static/Inter-Medium.ttf');
 }
 @font-face {
   font-family:lora-bold;
-  src: url('/fonts/Lora/Lora-Bold.ttf');
+  src: url('../../fonts/Lora/Lora-Bold.ttf');
 }
 @font-face {
   font-family:lora-bold;
-  src: url('/fonts/Lora/static/Lora-Medium.ttf');
+  src: url('../../fonts/Lora/static/Lora-Medium.ttf');
 }
 @font-face {
   font-family:lora;
-  src: url('/fonts/Lora/Lora-Regular.ttf');
+  src: url('../../fonts/Lora/Lora-Regular.ttf');
 }
 *
 {
@@ -83,7 +83,7 @@ p{
 
 
   .ca{
-    background-image: url(/Assests/sec2-1.png);
+    background-image: url(../Assests/sec2-1.png);
     width: 421px;
     height: 540px;
   }
@@ -143,7 +143,7 @@ p{
 /* section 4 */
 .sec4-bg
 {
-    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('/Assests/sec4-bg.png');
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../Assests/sec4-bg.png');
     height: 1226px;
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -203,7 +203,7 @@ p{
 .sec-8{
   background-image: 
   linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(7, 7, 7, 0.5)),
-  url("/Assests/sec6-bg.png");
+  url("../Assests/sec6-bg.png");
   height: 784px;
   background-repeat: no-repeat;
   background-size: cover  ;
@@ -320,7 +320,7 @@ border: 1px solid #FFFFFF;
 /* section 8 */
 
 .bg8{
-  background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(/Assests/sec8-bg.png);
+  background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(../Assests/sec8-bg.png);
   height: 145px;
   /* background: #040404CC; */
 }
@@ -347,8 +347,8 @@ footer ul li a{
   border-radius: 0;
 }
 .bgf{
-  background-image: url(/Assests/footer.png);
-  height: 425px;
+  background-image: url(../Assests/footer.png);
+  /* height: 425px; */
 }
 .text-ladu{
   color: #FDF9F9B2;
@@ -391,8 +391,8 @@ footer ul li a,
 }
 
 .bgf {
-  background-image: url("/Assests/footer.png");
-  height: 425px;
+  background-image: url("../Assests/footer.png");
+  /* height: 425px; */
 }
 .text-ladu {
   color: #fdf9f9b2;

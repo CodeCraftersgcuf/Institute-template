@@ -20,7 +20,7 @@
       rgba(20, 20, 20, 0.8),
       rgba(20, 20, 20, 0.8)
     ),
-    url('/about/assests-about/sec4-bg.png');
+    url('../../about/assests-about/sec4-bg.png');
 }
 
 .bgl {
@@ -29,8 +29,8 @@
       rgba(20, 20, 20, 0.7),
       rgba(20, 20, 20, 0.7)
     ),
-    url('/about/assests-about/sec5-bg.png');
-  height: 752px;
+    url('../../about/assests-about/sec5-bg.png');
+  /* height: 752px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,7 +50,7 @@
       rgba(20, 20, 20, 0.6),
       rgba(20, 20, 20, 0.6)
     ),
-    url('/about/assests-about/hero-bg.png');
+    url('../../about/assests-about/hero-bg.png');
   height: 546px;
   background-repeat: no-repeat;
   background-position: center;
@@ -65,4 +65,25 @@
 }
 .butt {
   color: #3ac569;
+}
+@media (max-width: 1400px) {
+  .custom-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margintop {
+    margin-top: 20px !important;
+  }
+  .displayNone1400 {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .displayNone {
+    display: none;
+  }
 }

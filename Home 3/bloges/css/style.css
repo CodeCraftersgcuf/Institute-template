@@ -1,7 +1,7 @@
 
 .hero-img
 {
-  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('/bloges/Assests/sec-1-bg.png');
+  background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../../bloges/Assests/sec-1-bg.png');
   height:546px;
   background-size:100% 100%;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ footer ul li {
   
   .bgf {
     background-image: url("../assets-12/footer.png");
-    height: 425px;
+    /* height: 425px; */
     background-color: 
     #000647;
   }
@@ -96,6 +96,29 @@ footer ul li {
     border: 1px solid #ffffff;
   }
   /* End of Footer Section  */
+
+  @media (max-width: 1400px) {
+    .custom-display {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .flex-wrap {
+      flex-wrap: wrap;
+    }
+    .margintop {
+      margin-top: 20px !important;
+    }
+    .displayNone1400 {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .displayNone {
+      display: none;
+    }
+  }
+  
   
 
 

@@ -116,7 +116,7 @@ footer ul li {
   
   .bgf {
     background-image: url("../assets-12/footer.png");
-    height: 425px;
+    /* height: 425px; */
     background-color: 
     #000647;
   }
@@ -126,6 +126,9 @@ footer ul li {
   .btn-foot {
     border-radius: revert !important;
     border: none;
+  }
+  .btn-foot:hover{
+    background-color: #3AC569;
   }
   .foot-btn-div {
     width: 65px;
@@ -140,7 +143,28 @@ footer ul li {
   }
   /* End of Footer Section  */
   
-
+  @media (max-width: 1400px) {
+    .custom-display {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .flex-wrap {
+      flex-wrap: wrap;
+    }
+    .margintop {
+      margin-top: 20px !important;
+    }
+    .displayNone1400 {
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .displayNone {
+      display: none;
+    }
+  }
+  
 
 
 

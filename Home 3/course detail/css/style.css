@@ -365,7 +365,7 @@ footer ul li a,
 
 .bgf {
   background-image: url("../assets-12/footer.png");
-  height: 425px;
+  /* height: 425px; */
   background-color: 
   #000647;
 }

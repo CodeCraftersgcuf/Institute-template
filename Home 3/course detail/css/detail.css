@@ -1,5 +1,5 @@
 .bkl{
-    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('/course detail/assests-course/hero.png');
+    background-image:linear-gradient(to bottom, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('../../course detail/assests-course/hero.png');
     height: 546px;
     background-repeat: no-repeat;
     background-position: center;
@@ -170,7 +170,7 @@ footer ul li {
   
   .bgf {
     background-image: url("../assets-12/footer.png");
-    height: auto;
+    /* height: auto; */
   }
   .text-ladu {
     color: #fdf9f9b2;
@@ -192,3 +192,24 @@ footer ul li {
   }
   /* End of Footer Section  */
   
+@media (max-width: 1400px) {
+  .custom-display {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margintop {
+    margin-top: 20px !important;
+  }
+  .displayNone1400 {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .displayNone {
+    display: none;
+  }
+}

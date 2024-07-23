@@ -325,7 +325,7 @@ footer ul li a{
 }
 .bgf{
   background-image: url(/Assests/footer.png);
-  height: 425px;
+  /* height: 425px; */
 }
 .text-ladu{
   color: #FDF9F9B2;

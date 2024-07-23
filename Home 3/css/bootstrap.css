@@ -8768,6 +8768,7 @@ font-size: 40px;
 line-height: 48px;
 text-transform: capitalize;
 color: #000000;
+margin-bottom: 0px;
 }
 .font-inter-home3-24{
 font-family: inter-bold;
@@ -8777,6 +8778,7 @@ font-size: 60px;
 line-height: 73px;
 text-transform: capitalize;
 color: #000000;
+margin-bottom: 0px;
 }
 .font-inter-home3-hour{
 font-family: inter;
