@@ -838,3 +838,87 @@ footer ul li a,
     display: none;
   }
 }
+/* Slider container */
+.slider-container {
+  position: relative;
+}
+
+/* Wrapper for the slider */
+.slider-wrapper {
+  overflow: hidden;
+  position: relative;
+  /* Ensure that we show exactly three items at a time */
+}
+
+/* Slider content */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Slider items */
+.card-col {
+  min-width: calc(33.33% - 16px); /* Show three items at a time with a gap */
+  box-sizing: border-box;
+  margin-right: 16px; /* Adjust for the gap between items */
+}
+
+/* Remove margin from last item */
+.card-col:last-child {
+  margin-right: 0;
+}
+
+/* Black bar styles for navigation */
+.black-bar {
+  cursor: pointer;
+}
+
+/* Ensure the green bar is centered */
+.high2 {
+  cursor: default;
+}
+
+/* Adjust slider when showing three items */
+.slider-container {
+  overflow: hidden;
+}
+/* Slider container for the fifth section */
+.slider-container-fivth {
+  position: relative;
+  overflow: hidden;
+  padding: 0 15px; /* To avoid overflow due to margin */
+}
+
+/* Wrapper for the slider in the fifth section */
+.slider-wrapper-fivth {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Slider content for the fifth section */
+.slider-fivth {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Slider items for the fifth section */
+.feature-img {
+  min-width: calc(33.33% - 16px); /* Show three items at a time with a gap */
+  box-sizing: border-box;
+  margin-right: 16px; /* Adjust for the gap between items */
+}
+
+/* Remove margin from the last item */
+.feature-img:last-child {
+  margin-right: 0;
+}
+
+/* Black bar styles for navigation */
+.white-bar-sec {
+  cursor: pointer;
+}
+
+/* Ensure the green bar is centered */
+.green-bar-sec {
+  cursor: default;
+}

@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <style>
+    .links {
+      font-family: Arial, sans-serif;
+    }
+
+    .nav-txt {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .font-inter-nav-links {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin: 0;
+      width: 100px;
+    }
+
+    .font-inter-nav-links:hover .sub-menu {
+      display: block;
+    }
+
+    .sub-menu li {
+      cursor: pointer;
+    }
+    li a {
+      text-decoration: none !important;
+      color: white;
+    }
+  </style>
   <body>
     <!--Start of Navbar Section  -->
 
@@ -21,14 +60,14 @@
             >
           </div>
           <div>
-            <img src="/assets/phone.png" alt="phone Photo" />
+            <img src="./assets/phone.png" alt="phone Photo" />
             <span class="font-inter-nav-title">+92-305-1234567</span>
           </div>
           <div>
-            <img src="/assets/twitter.png" alt="twiiter" class="m-right" />
-            <img src="/assets/pinterest.png" alt="pinterest" class="m-right" />
-            <img src="/assets/google.png" alt="google" class="m-right" />
-            <img src="/assets/world.png" alt="world" class="m-right" />
+            <img src="./assets/twitter.png" alt="twiiter" class="m-right" />
+            <img src="./assets/pinterest.png" alt="pinterest" class="m-right" />
+            <img src="./assets/google.png" alt="google" class="m-right" />
+            <img src="./assets/world.png" alt="world" class="m-right" />
           </div>
           <div>
             <div class="input-div">
@@ -40,7 +79,7 @@
               <span>
                 <img
                   class="search-icon"
-                  src="/assets/search.png"
+                  src="./assets/search.png"
                   alt="search icon"
                 />
               </span>
@@ -59,7 +98,7 @@
           <div class="d-flex justify-content-end">
             <div class="d-flex">
               <div class="me-2">
-                <img src="assets/certificate.png" alt="certificate" />
+                <img src="./assets/certificate.png" alt="certificate" />
               </div>
               <div>
                 <h6 class="m-0 font-inter-3-nav-title">Certified Institute</h6>
@@ -99,7 +138,26 @@
               <ul
                 class="d-flex justify-content-start gap-4-5 text-white nav-txt"
               >
-                <li class="font-inter-nav-links">HOME</li>
+                <li class="font-inter-nav-links ps-3">
+                  HOME
+                  <ul class="sub-menu bg-dark">
+                    <li class="">
+                      <a
+                        href="../Home 2/index.html"
+                        class="text-decortaion-none"
+                        >Home 2
+                      </a>
+                    </li>
+                    <li class="">
+                      <a
+                        href="../Home 3/index.html"
+                        class="text-decortaion-none"
+                      >
+                        Home 3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
                 <li class="font-inter-nav-links">COURSES</li>
                 <li class="font-inter-nav-links">BLOGS</li>
                 <li class="font-inter-nav-links">ABOUT</li>
@@ -147,7 +205,7 @@
                   <div class="play">
                     <div class="play-size"></div>
                   </div>
-                  <div class="pe-4 pt-3 ps-3 font-inter-hero-btn ">SCHEDULE</div>
+                  <div class="pe-4 pt-3 ps-3 font-inter-hero-btn">SCHEDULE</div>
                 </button>
               </div>
             </div>
@@ -171,62 +229,13 @@
     <!-- Start of Third Section  -->
 
     <div class="third-sec">
-      <div class="container">
-        <div class="d-flex justify-content-center gap-4 flex-wrap">
-          <div class="card-col p-0">
-            <div class="card">
-              <img class="card-image" src="./assets/sec-2-1.png" alt="..." />
-              <div
-                class="hover-content d-flex flex-column justify-content-between p-4"
-              >
-                <p class="font-inter-card m-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam dignissim faucibus euismod. Morbi quis tortor eget
-                  felis interdum interdum a et elit. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <div
-                  class="card-hover-sy d-flex justify-content-between align-items-end ms-3"
-                >
-                  <div
-                    class="card-hover-ico d-flex justify-content-center align-items-center"
-                  >
-                    <img
-                      src="./assets/card-hover-ico.png"
-                      alt="card-hover-ico"
-                    />
-                  </div>
-                  <div class="card-hover-read d-flex">
-                    <p class="font-inter-card-read">Read More</p>
-                    <img
-                      src="./assets/card-hover-more.png"
-                      alt="more-ico"
-                      class="more-ico"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="card-body ps-0">
-                <p class="card-text">
-                  <span class="font-inter-card-title"> Content Writing </span
-                  ><br />
-                  <span class="font-inter-card-p">
-                    Lorem ipsum dolor sit amet</span
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="card-col p-0">
-            <div class="card">
-              <img src="./assets/sec-2-2.png" alt="..." />
-              <div class="card-body ps-0">
-                <p class="card-text">
-                  <span class="font-inter-card-title">IELTS & PTE </span> <br />
-                  <span class="font-inter-card-p">
-                    Lorem ipsum dolor sit amet</span
-                  >
-                </p>
+      <div class="container slider-container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <!-- Repeat these items to create a sliding effect -->
+            <div class="card-col p-0">
+              <div class="card">
+                <img class="card-image" src="./assets/sec-2-1.png" alt="..." />
                 <div
                   class="hover-content d-flex flex-column justify-content-between p-4"
                 >
@@ -257,19 +266,109 @@
                     </div>
                   </div>
                 </div>
+                <div class="card-body ps-0">
+                  <p class="card-text">
+                    <span class="font-inter-card-title"> Content Writing </span
+                    ><br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-col p-0">
-            <div class="card">
-              <img src="./assets/sec-2-3.png" alt="..." />
-              <div class="card-body ps-0">
-                <p class="card-text text-start">
-                  <span class="font-inter-card-title">IELTS & PTE </span><br />
-                  <span class="font-inter-card-p">
-                    Lorem ipsum dolor sit amet</span
+            <div class="card-col p-0">
+              <div class="card">
+                <img src="./assets/sec-2-2.png" alt="..." />
+                <div class="card-body ps-0">
+                  <p class="card-text">
+                    <span class="font-inter-card-title">IELTS & PTE </span>
+                    <br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                  <div
+                    class="hover-content d-flex flex-column justify-content-between p-4"
                   >
-                </p>
+                    <p class="font-inter-card m-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam dignissim faucibus euismod. Morbi quis tortor eget
+                      felis interdum interdum a et elit. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                    <div
+                      class="card-hover-sy d-flex justify-content-between align-items-end ms-3"
+                    >
+                      <div
+                        class="card-hover-ico d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="./assets/card-hover-ico.png"
+                          alt="card-hover-ico"
+                        />
+                      </div>
+                      <div class="card-hover-read d-flex">
+                        <p class="font-inter-card-read">Read More</p>
+                        <img
+                          src="./assets/card-hover-more.png"
+                          alt="more-ico"
+                          class="more-ico"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-col p-0">
+              <div class="card">
+                <img src="./assets/sec-2-3.png" alt="..." />
+                <div class="card-body ps-0">
+                  <p class="card-text text-start">
+                    <span class="font-inter-card-title">IELTS & PTE </span
+                    ><br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                  <div
+                    class="hover-content d-flex flex-column justify-content-between p-4"
+                  >
+                    <p class="font-inter-card m-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam dignissim faucibus euismod. Morbi quis tortor eget
+                      felis interdum interdum a et elit. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                    <div
+                      class="card-hover-sy d-flex justify-content-between align-items-end ms-3"
+                    >
+                      <div
+                        class="card-hover-ico d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="./assets/card-hover-ico.png"
+                          alt="card-hover-ico"
+                        />
+                      </div>
+                      <div class="card-hover-read d-flex">
+                        <p class="font-inter-card-read">Read More</p>
+                        <img
+                          src="./assets/card-hover-more.png"
+                          alt="more-ico"
+                          class="more-ico"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the items for the slider effect -->
+            <div class="card-col p-0">
+              <div class="card">
+                <img class="card-image" src="./assets/sec-2-1.png" alt="..." />
                 <div
                   class="hover-content d-flex flex-column justify-content-between p-4"
                 >
@@ -297,6 +396,103 @@
                         alt="more-ico"
                         class="more-ico"
                       />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body ps-0">
+                  <p class="card-text">
+                    <span class="font-inter-card-title"> Content Writing </span
+                    ><br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-col p-0">
+              <div class="card">
+                <img src="./assets/sec-2-2.png" alt="..." />
+                <div class="card-body ps-0">
+                  <p class="card-text">
+                    <span class="font-inter-card-title">IELTS & PTE </span>
+                    <br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                  <div
+                    class="hover-content d-flex flex-column justify-content-between p-4"
+                  >
+                    <p class="font-inter-card m-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam dignissim faucibus euismod. Morbi quis tortor eget
+                      felis interdum interdum a et elit. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                    <div
+                      class="card-hover-sy d-flex justify-content-between align-items-end ms-3"
+                    >
+                      <div
+                        class="card-hover-ico d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="./assets/card-hover-ico.png"
+                          alt="card-hover-ico"
+                        />
+                      </div>
+                      <div class="card-hover-read d-flex">
+                        <p class="font-inter-card-read">Read More</p>
+                        <img
+                          src="./assets/card-hover-more.png"
+                          alt="more-ico"
+                          class="more-ico"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-col p-0">
+              <div class="card">
+                <img src="./assets/sec-2-3.png" alt="..." />
+                <div class="card-body ps-0">
+                  <p class="card-text text-start">
+                    <span class="font-inter-card-title">IELTS & PTE </span
+                    ><br />
+                    <span class="font-inter-card-p"
+                      >Lorem ipsum dolor sit amet</span
+                    >
+                  </p>
+                  <div
+                    class="hover-content d-flex flex-column justify-content-between p-4"
+                  >
+                    <p class="font-inter-card m-3">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam dignissim faucibus euismod. Morbi quis tortor eget
+                      felis interdum interdum a et elit. Lorem ipsum dolor sit
+                      amet, consectetur adipiscing elit.
+                    </p>
+                    <div
+                      class="card-hover-sy d-flex justify-content-between align-items-end ms-3"
+                    >
+                      <div
+                        class="card-hover-ico d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="./assets/card-hover-ico.png"
+                          alt="card-hover-ico"
+                        />
+                      </div>
+                      <div class="card-hover-read d-flex">
+                        <p class="font-inter-card-read">Read More</p>
+                        <img
+                          src="./assets/card-hover-more.png"
+                          alt="more-ico"
+                          class="more-ico"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -304,12 +500,26 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container mt-3">
-        <div class="d-flex justify-content-center">
-          <img class="black-bar high1" src="/assets/black-bar.png" alt="bar" />
-          <img class="ms-2 me-2 high2" src="/assets/green-bar.png" alt="bar" />
-          <img class="black-bar high1" src="/assets/black-bar.png" alt="bar" />
+        <div class="container mt-3">
+          <div class="d-flex justify-content-center">
+            <img
+              class="black-bar high1"
+              src="./assets/black-bar.png"
+              alt="bar"
+              data-slide="prev"
+            />
+            <img
+              class="ms-2 me-2 high2"
+              src="./assets/green-bar.png"
+              alt="bar"
+            />
+            <img
+              class="black-bar high1"
+              src="./assets/black-bar.png"
+              alt="bar"
+              data-slide="next"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -353,9 +563,13 @@
           </div>
           <div class="sec-4-img-div">
             <div class="sec-4-img">
-              <img src="/assets/sec-3-1.png" alt="" />
+              <img src="./assets/sec-3-1.png" alt="" />
               <!-- <span class="sec-4-border"></span> -->
-               <img class="sec-4-border" src="/assets/Rectangle.png" alt="Rectangle">
+              <img
+                class="sec-4-border"
+                src="./assets/Rectangle.png"
+                alt="Rectangle"
+              />
             </div>
           </div>
         </div>
@@ -375,55 +589,118 @@
           </div>
         </div>
 
-        <div
-          class="d-flex justify-content-evenly align-items-center flex-wrap mt-4-5"
-        >
-          <div class="feature-img">
-            <img src="assets/sec-4-1.png" alt="First Image" />
-            <div
-              class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
-            >
-              <span class="feature-hover-heading">LOREM IPSUM</span
-              ><span class="feature-hover-text"
-                >Lorem ipsum dolor sit amet</span
-              >
-            </div>
-          </div>
-          <div class="feature-img">
-            <img
-              class="margintop"
-              src="assets/sec-4-2.png"
-              alt="Second Image"
-            />
-            <div
-              class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
-            >
-              <span class="feature-hover-heading">LOREM IPSUM</span
-              ><span class="feature-hover-text"
-                >Lorem ipsum dolor sit amet</span
-              >
-            </div>
-          </div>
-          <div class="feature-img">
-            <img class="margintop" src="assets/sec-4-3.png" alt="Third Image" />
-            <div
-              class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
-            >
-              <span class="feature-hover-heading">LOREM IPSUM</span
-              ><span class="feature-hover-text"
-                >Lorem ipsum dolor sit amet</span
-              >
+        <div class="slider-container-fivth d-flex justify-content-center mt-3">
+          <div class="slider-wrapper-fivth">
+            <div class="slider-fivth">
+              <!-- Slide 1 -->
+              <div class="feature-img">
+                <img src="./assets/sec-4-1.png" alt="First Image" />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="feature-img">
+                <img
+                  class="margintop"
+                  src="./assets/sec-4-2.png"
+                  alt="Second Image"
+                />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="feature-img">
+                <img
+                  class="margintop"
+                  src="./assets/sec-4-3.png"
+                  alt="Third Image"
+                />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
+              <!-- Slide 4 (Repeat of Slide 1) -->
+              <div class="feature-img">
+                <img src="./assets/sec-4-1.png" alt="First Image" />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
+              <!-- Slide 5 (Repeat of Slide 2) -->
+              <div class="feature-img">
+                <img
+                  class="margintop"
+                  src="./assets/sec-4-2.png"
+                  alt="Second Image"
+                />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
+              <!-- Slide 6 (Repeat of Slide 3) -->
+              <div class="feature-img">
+                <img
+                  class="margintop"
+                  src="./assets/sec-4-3.png"
+                  alt="Third Image"
+                />
+                <div
+                  class="feature-hover-content d-flex align-items-center flex-column justify-content-center"
+                >
+                  <span class="feature-hover-heading">LOREM IPSUM</span>
+                  <span class="feature-hover-text"
+                    >Lorem ipsum dolor sit amet</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="bar-section d-flex justify-content-center mt-3">
-          <img class="white-bar-sec mt-1" src="/assets/white-bar.png" alt="" />
+          <img
+            class="white-bar-sec mt-1"
+            src="/assets/white-bar.png"
+            alt=""
+            data-slide="prev-fivth"
+          />
           <img
             class="green-bar-sec ms-2 me-2"
-            src="/assets/green-bar.png"
+            src="./assets/green-bar.png"
             alt=""
           />
-          <img class="white-bar-sec mt-1" src="/assets/white-bar.png" alt="" />
+          <img
+            class="white-bar-sec mt-1"
+            src="./assets/white-bar.png"
+            alt=""
+            data-slide="next-fivth"
+          />
         </div>
       </div>
     </div>
@@ -469,7 +746,7 @@
               <div class="symbols">
                 <div class="d-flex justify-content-between mt-4-5">
                   <span class="quotes">
-                    <img src="/assets/quotes.png" alt="" />
+                    <img src="./assets/quotes.png" alt="" />
                   </span>
                   <div class="arrows d-flex gap-3 me-4">
                     <div
@@ -477,7 +754,7 @@
                     >
                       <img
                         class="arrow"
-                        src="/assets/left-arrow.png"
+                        src="./assets/left-arrow.png"
                         alt="asd"
                       />
                     </div>
@@ -486,7 +763,7 @@
                     >
                       <img
                         class="arrow"
-                        src="/assets/right-arrow.png"
+                        src="./assets/right-arrow.png"
                         alt="asd"
                       />
                     </div>
@@ -507,7 +784,7 @@
                 class="sev-last d-flex container align-items-end p-0 mt-4-5 gap-2"
               >
                 <div class="image">
-                  <img src="/assets/sec-6.png" alt="Section Seveth Photo" />
+                  <img src="./assets/sec-6.png" alt="Section Seveth Photo" />
                 </div>
                 <div
                   class="user-info d-flex align-items-end justify-content-between"
@@ -521,11 +798,11 @@
                     </div>
                   </div>
                   <div class="user-rating">
-                    <img src="/assets/rating.png" alt="rating" />
-                    <img src="/assets/rating.png" alt="rating" />
-                    <img src="/assets/rating.png" alt="rating" />
-                    <img src="/assets/rating.png" alt="rating" />
-                    <img src="/assets/rating.png" alt="rating" />
+                    <img src="./assets/rating.png" alt="rating" />
+                    <img src="./assets/rating.png" alt="rating" />
+                    <img src="./assets/rating.png" alt="rating" />
+                    <img src="./assets/rating.png" alt="rating" />
+                    <img src="./assets/rating.png" alt="rating" />
                   </div>
                 </div>
               </div>
@@ -537,21 +814,36 @@
               <div class="line line-faqs"><div class="square"></div></div>
             </div>
             <div class="container mt-4">
-              <div class="plus-first d-flex">
-                <div
-                  class="plus-div d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    class="plus-img"
-                    src="/assets/plus.png"
-                    alt="Plus Symbol"
-                  />
+              <div class="plus-first d-flex flex-column">
+                <div class="up-part d-flex">
+                  <div
+                    class="plus-div d-flex justify-content-center align-items-center"
+                    onclick="showFirst('first-p', this)"
+                  >
+                    <img
+                      class="plus-img"
+                      src="./assets/plus.png"
+                      alt="Plus Symbol"
+                    />
+                  </div>
+                  <p
+                    class="plus-text p-1 font-inter-faqs d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </p>
                 </div>
-                <p
-                  class="plus-text p-1 font-inter-faqs d-flex justify-content-center align-items-center"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </p>
+                <div class="bg-white high-m" style="display: none" id="first-p">
+                  <div class="plus-minus-text p-top">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam sit amet dignissim faucibus euismod. Morbi quis
+                      tortor eget felis interdum sit amet interdum a et elit.
+                      Lorem ipsum dolor sit amet. Morbi quis tortor eget felis
+                      interdum sit amet interdum a et elit. Lorem ipsum dolor
+                      sit amet Morbi quis tortor
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div class="minus d-flex">
@@ -560,7 +852,7 @@
                 >
                   <img
                     class="minus-img"
-                    src="/assets/minus.png"
+                    src="./assets/minus.png"
                     alt="Minus Symbol"
                   />
                 </div>
@@ -571,6 +863,7 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </p>
               </div>
+
               <div class="bg-white high-m">
                 <div class="plus-minus-text p-top">
                   <p>
@@ -583,22 +876,43 @@
                   </p>
                 </div>
               </div>
+
               <br />
-              <div class="plus-first d-flex">
-                <div
-                  class="plus-div d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    class="plus-img"
-                    src="/assets/plus.png"
-                    alt="Plus Symbol"
-                  />
+
+              <div class="plus-first d-flex flex-column">
+                <div class="up-part d-flex">
+                  <div
+                    class="plus-div d-flex justify-content-center align-items-center"
+                    onclick="showFirst('second-p', this)"
+                  >
+                    <img
+                      class="plus-img"
+                      src="./assets/plus.png"
+                      alt="Plus Symbol"
+                    />
+                  </div>
+                  <p
+                    class="plus-text p-1 font-inter-faqs d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </p>
                 </div>
-                <p
-                  class="plus-text p-1 font-inter-faqs d-flex justify-content-center align-items-center"
+                <div
+                  class="bg-white high-m"
+                  style="display: none"
+                  id="second-p"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </p>
+                  <div class="plus-minus-text p-top">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aliquam sit amet dignissim faucibus euismod. Morbi quis
+                      tortor eget felis interdum sit amet interdum a et elit.
+                      Lorem ipsum dolor sit amet. Morbi quis tortor eget felis
+                      interdum sit amet interdum a et elit. Lorem ipsum dolor
+                      sit amet Morbi quis tortor
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -712,7 +1026,7 @@
                 <div class="blog-date d-flex mt-3">
                   <img
                     class="mt-1"
-                    src="assets/clock.png"
+                    src="./assets/clock.png"
                     alt="clock"
                   />&nbsp;&nbsp;
                   <p class="font-inter-time">23 Days Ago</p>
@@ -728,7 +1042,7 @@
                 <div class="blog-date d-flex mt-3-4">
                   <img
                     class="mt-1"
-                    src="assets/clock.png"
+                    src="./assets/clock.png"
                     alt="clock"
                   />&nbsp;&nbsp;
                   <p class="font-inter-time">23 Days Ago</p>
@@ -744,7 +1058,7 @@
                 <div class="blog-date d-flex mt-3-4 pb-3">
                   <img
                     class="mt-1"
-                    src="assets/clock.png"
+                    src="./assets/clock.png"
                     alt="clock"
                   />&nbsp;&nbsp;
                   <p class="font-inter-time">23 Days Ago</p>
@@ -902,7 +1216,7 @@
         >
           <div>
             <div class="new-card">
-              <img src="/assets/sec-10-1.png" alt="Image 1" />
+              <img src="./assets/sec-10-1.png" alt="Image 1" />
               <div class="new-text ps-4 pt-3 d-flex flex-column hth">
                 <h1 class="font-inter-new-card mt-2">
                   The World Best University
@@ -1196,5 +1510,156 @@
       </div>
     </footer>
     <!-- End of Footer  -->
+    <script>
+      // JavaScript for slider functionality
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const slider = document.querySelector(".slider");
+        const prevButton = document.querySelector('[data-slide="prev"]');
+        const nextButton = document.querySelector('[data-slide="next"]');
+        const slideWidth = document.querySelector(".card-col").offsetWidth + 16; // Add margin to the width
+        let slideIndex = 0;
+        const slidesToShow = 3; // Number of slides to show at a time
+
+        function updateSlider() {
+          slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+        }
+
+        prevButton.addEventListener("click", () => {
+          if (slideIndex > 0) {
+            slideIndex--;
+          } else {
+            slideIndex = Math.ceil(slider.children.length / slidesToShow) - 1;
+          }
+          updateSlider();
+        });
+
+        nextButton.addEventListener("click", () => {
+          if (
+            slideIndex <
+            Math.ceil(slider.children.length / slidesToShow) - 1
+          ) {
+            slideIndex++;
+          } else {
+            slideIndex = 0;
+          }
+          updateSlider();
+        });
+
+        // Initial call to set the right position on page load
+        updateSlider();
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        const sliderFivth = document.querySelector(".slider-fivth");
+        const prevButtonFivth = document.querySelector(
+          '[data-slide="prev-fivth"]'
+        );
+        const nextButtonFivth = document.querySelector(
+          '[data-slide="next-fivth"]'
+        );
+        const slideWidthFivth =
+          document.querySelector(".feature-img").offsetWidth + 16; // Add margin to the width
+        let slideIndexFivth = 0;
+        const slidesToShowFivth = 3; // Number of slides to show at a time
+
+        function updateSliderFivth() {
+          sliderFivth.style.transform = `translateX(${
+            -slideIndexFivth * slideWidthFivth
+          }px)`;
+        }
+
+        prevButtonFivth.addEventListener("click", () => {
+          if (slideIndexFivth > 0) {
+            slideIndexFivth--;
+          } else {
+            slideIndexFivth = Math.ceil(
+              (sliderFivth.children.length - slidesToShowFivth) /
+                slidesToShowFivth
+            );
+          }
+          updateSliderFivth();
+        });
+
+        nextButtonFivth.addEventListener("click", () => {
+          if (
+            slideIndexFivth <
+            Math.ceil(
+              (sliderFivth.children.length - slidesToShowFivth) /
+                slidesToShowFivth
+            )
+          ) {
+            slideIndexFivth++;
+          } else {
+            slideIndexFivth = 0;
+          }
+          updateSliderFivth();
+        });
+
+        // Initial call to set the right position on page load
+        updateSliderFivth();
+      });
+      function showFirst(id, clickedElement) {
+    // Toggle the visibility of the corresponding section
+    var section = document.getElementById(id);
+
+    if (window.getComputedStyle(section).getPropertyValue('display') === "none" || section.style.display === "") {
+        section.style.display = "block";
+
+        // Reset background color of all elements with class "plus-div" before changing the clicked one
+        var allPlusDivs = document.getElementsByClassName("plus-div");
+        for (var i = 0; i < allPlusDivs.length; i++) {
+            allPlusDivs[i].style.backgroundColor = ""; // Reset to default or whatever is appropriate
+        }
+
+        // Change background color of the clicked plus-div
+        clickedElement.style.backgroundColor = "green";
+        
+        // Change background color and text color of plus-text
+        var plusText = clickedElement.querySelector(".plus-text");
+        plusText.style.backgroundColor = "black";
+        plusText.style.color = "white";
+
+    } else {
+        section.style.display = "none";
+        
+        // Reset background color of the clicked plus-div when hiding section
+        clickedElement.style.backgroundColor = ""; // Reset to default or whatever is appropriate
+        
+        // Reset background color and text color of plus-text
+        var plusText = clickedElement.querySelector(".plus-text");
+        plusText.style.backgroundColor = "";
+        plusText.style.color = "";
+    }
+
+    // Change the color and image of the clicked plus-div
+    var minusDiv = document.querySelector(".minus-div");
+    var minusImg = minusDiv.querySelector(".minus-img");
+    var plusImg = clickedElement.querySelector(".plus-img");
+
+    // Reset the previous clicked plus-div's image
+    var previousClicked = document.querySelector(".plus-div.clicked");
+    if (previousClicked && previousClicked !== clickedElement) {
+        var previousPlusImg = previousClicked.querySelector(".plus-img");
+        previousPlusImg.src = "./assets/plus.png"; // Reset image src of previous plus-img
+        
+        // Reset background color and text color of previous plus-text
+        var previousPlusText = previousClicked.querySelector(".plus-text");
+        previousPlusText.style.backgroundColor = "";
+        previousPlusText.style.color = "";
+        
+        previousClicked.classList.remove("clicked");
+    }
+
+    // Set the image of the clicked plus-div
+    plusImg.src = "./assets/minus.png"; // Change image src of plus-img to match minus state
+    clickedElement.classList.add("clicked");
+
+    // Change background color of minus-div
+    minusDiv.style.backgroundColor = "blue";
+    // Change image src of minus-img
+    minusImg.src = "./assets/minus.png"; // Change image src of minus-img to match minus state
+}
+
+    </script>
   </body>
 </html>
